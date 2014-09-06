@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BD5815A1-7BF6-4B2E-B851-94FF1A1D4C58</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Marks Calculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>82903D67-116B-44C6-95A2-EED5CE8A04C2</key>
+		<string>https://github.com/shm8-23/Marks-Calculator</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Marks Calculator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>82903D67-116B-44C6-95A2-EED5CE8A04C2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shm8-23/Marks-Calculator</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>82903D67-116B-44C6-95A2-EED5CE8A04C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>82903D67-116B-44C6-95A2-EED5CE8A04C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Marks-Calculator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
