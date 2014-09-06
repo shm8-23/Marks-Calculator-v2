@@ -65,4 +65,12 @@
 }
 */
 
+- (IBAction)Scoreachieved:(id)sender {
+}
+
+- (IBAction)totalscore:(id)sender {
+}
+
+- (IBAction)target:(id)sender {
+}
 @end
