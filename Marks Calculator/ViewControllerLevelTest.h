@@ -9,9 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewControllerLevelTest : UIViewController
-- (IBAction)Scoreachieved:(id)sender;
-- (IBAction)totalscore:(id)sender;
-- (IBAction)target:(id)sender;
 
 
 @end

@@ -805,27 +805,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="Scoreachieved:" destination="tQh-1z-WPu" eventType="editingDidEnd" id="X9w-f6-XLR"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Total Score" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rdu-ks-CNW">
                                 <rect key="frame" x="102" y="212" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="totalscore:" destination="tQh-1z-WPu" eventType="editingDidEnd" id="cwV-ep-rJ0"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Target" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QvI-tA-MfP">
                                 <rect key="frame" x="102" y="286" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="target:" destination="tQh-1z-WPu" eventType="editingDidEnd" id="Tbo-LN-Yv4"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7G-M8-nz9">
                                 <rect key="frame" x="149" y="324" width="30" height="30"/>
