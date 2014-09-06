@@ -10,6 +10,7 @@
 		97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C7F19BADFFB00A27AA7 /* Html-source-code.png */; };
 		97304C8319BADFFB00A27AA7 /* IOS 7 ico 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8019BADFFB00A27AA7 /* IOS 7 ico 120x120.png */; };
 		97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8119BADFFB00A27AA7 /* Score Calculator.png */; };
+		97657BBC19BB32700086EB02 /* Score cal splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 97657BBB19BB32700086EB02 /* Score cal splash.png */; };
 		B5C1908919B995050018B82F /* ViewControllerADMTEoy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1908719B995050018B82F /* ViewControllerADMTEoy.m */; };
 		B5C1908A19B995050018B82F /* ViewControllerADMTEoy.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C1908819B995050018B82F /* ViewControllerADMTEoy.xib */; };
 		B5C1908E19B995240018B82F /* ViewControllerADMTCm.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1908C19B995240018B82F /* ViewControllerADMTCm.m */; };
@@ -51,6 +52,7 @@
 		97304C7F19BADFFB00A27AA7 /* Html-source-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Html-source-code.png"; sourceTree = "<group>"; };
 		97304C8019BADFFB00A27AA7 /* IOS 7 ico 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS 7 ico 120x120.png"; sourceTree = "<group>"; };
 		97304C8119BADFFB00A27AA7 /* Score Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score Calculator.png"; sourceTree = "<group>"; };
+		97657BBB19BB32700086EB02 /* Score cal splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score cal splash.png"; sourceTree = "<group>"; };
 		B5C1908619B995050018B82F /* ViewControllerADMTEoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerADMTEoy.h; path = ../ViewControllerADMTEoy.h; sourceTree = "<group>"; };
 		B5C1908719B995050018B82F /* ViewControllerADMTEoy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerADMTEoy.m; path = ../ViewControllerADMTEoy.m; sourceTree = "<group>"; };
 		B5C1908819B995050018B82F /* ViewControllerADMTEoy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewControllerADMTEoy.xib; path = ../ViewControllerADMTEoy.xib; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				97304C7F19BADFFB00A27AA7 /* Html-source-code.png */,
 				97304C8019BADFFB00A27AA7 /* IOS 7 ico 120x120.png */,
 				97304C8119BADFFB00A27AA7 /* Score Calculator.png */,
+				97657BBB19BB32700086EB02 /* Score cal splash.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -293,6 +296,7 @@
 				B5C1908A19B995050018B82F /* ViewControllerADMTEoy.xib in Resources */,
 				F903798019AB156300CACEF9 /* Images.xcassets in Resources */,
 				F903797219AB156300CACEF9 /* InfoPlist.strings in Resources */,
+				97657BBC19BB32700086EB02 /* Score cal splash.png in Resources */,
 				97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */,
 				B5C1908F19B995240018B82F /* ViewControllerADMTCm.xib in Resources */,
 				F903797B19AB156300CACEF9 /* Main.storyboard in Resources */,
