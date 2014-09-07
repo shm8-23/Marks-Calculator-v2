@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewControllerAboutus : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *dev;
+@property (weak, nonatomic) IBOutlet UIImageView *dev;
 
 @end
