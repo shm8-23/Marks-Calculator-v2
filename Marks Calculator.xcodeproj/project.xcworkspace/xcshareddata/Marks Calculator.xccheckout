@@ -5,43 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>174A05C1-768E-4F1A-B7D5-5AC56F3E5A96</string>
+	<string>34BE58DB-2DA8-4523-B805-65C6570DFA97</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Marks Calculator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>47632EDE-1462-4236-9BCC-4012C0A08507</key>
-		<string>https://github.com/shm8-23/Marks-Calculator-v2/trunk</string>
+		<key>8C16D82F-3F3D-416B-8B9F-4431E96C8A44</key>
+		<string>https://github.com/shm8-23/Marks-Calculator-v2.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Marks Calculator.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>47632EDE-1462-4236-9BCC-4012C0A08507</key>
+		<key>8C16D82F-3F3D-416B-8B9F-4431E96C8A44</key>
 		<string>../..</string>
 	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>47632EDE-1462-4236-9BCC-4012C0A08507</key>
-		<string>https://github.com/shm8-23/Marks-Calculator-v2</string>
-	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/shm8-23/Marks-Calculator-v2/trunk/Marks%20Calculator.xcodeproj</string>
+	<string>https://github.com/shm8-23/Marks-Calculator-v2.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>47632EDE-1462-4236-9BCC-4012C0A08507</string>
+	<string>8C16D82F-3F3D-416B-8B9F-4431E96C8A44</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
-			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
-			<string>branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
-			<string>trunk</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>47632EDE-1462-4236-9BCC-4012C0A08507</string>
+			<string>8C16D82F-3F3D-416B-8B9F-4431E96C8A44</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Marks-Calculator-v2</string>
 		</dict>
