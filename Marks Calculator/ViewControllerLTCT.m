@@ -65,4 +65,20 @@
 }
 */
 
+- (IBAction)Scoreb:(id)sender {
+    [sender resignFirstResponder];
+}
+- (IBAction)Totalb:(id)sender {
+    [sender resignFirstResponder];
+}
+
+- (IBAction)calculate:(id)sender {
+    
+    float score = [_Score.text floatValue];
+    float total = [_Total.text floatValue];
+    
+    float result = (score / total) * 100;
+    
+    [_marks setText: [NSString stringWithFormat:@"%1.0f", result]];
+}
 @end
