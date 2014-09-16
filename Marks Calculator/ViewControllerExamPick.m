@@ -6,12 +6,6 @@
 //  Copyright (c) 2014 Shaun. All rights reserved.
 //
 
-#import "ViewControllerADMTEoy.h"
-
-#import "ViewControllerADMTCm.h"
-
-#import "ViewControllerADMTExamPick.h"
-
 #import "ViewController.h"
 
 #import "ViewControllerSubjectPick.h"

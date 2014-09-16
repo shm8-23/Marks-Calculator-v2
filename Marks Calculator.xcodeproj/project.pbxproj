@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F40FDA319C73EC40085C88C /* OverviewGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA219C73EC40085C88C /* OverviewGraph.m */; };
+		0F40FDA519C743A60085C88C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F40FDA419C743A60085C88C /* CoreData.framework */; };
+		0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */; };
 		97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C7F19BADFFB00A27AA7 /* Html-source-code.png */; };
 		97304C8319BADFFB00A27AA7 /* IOS 7 ico 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8019BADFFB00A27AA7 /* IOS 7 ico 120x120.png */; };
 		97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8119BADFFB00A27AA7 /* Score Calculator.png */; };
 		97657BBC19BB32700086EB02 /* Score cal splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 97657BBB19BB32700086EB02 /* Score cal splash.png */; };
 		9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */; };
-		B5C1908919B995050018B82F /* ViewControllerADMTEoy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1908719B995050018B82F /* ViewControllerADMTEoy.m */; };
-		B5C1908A19B995050018B82F /* ViewControllerADMTEoy.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C1908819B995050018B82F /* ViewControllerADMTEoy.xib */; };
-		B5C1908E19B995240018B82F /* ViewControllerADMTCm.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1908C19B995240018B82F /* ViewControllerADMTCm.m */; };
-		B5C1908F19B995240018B82F /* ViewControllerADMTCm.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C1908D19B995240018B82F /* ViewControllerADMTCm.xib */; };
 		B5C1909C19B997EE0018B82F /* ViewControllerLevelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1909B19B997EE0018B82F /* ViewControllerLevelTest.m */; };
 		B5C1909F19B998540018B82F /* ViewControllerLTCT.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1909E19B998540018B82F /* ViewControllerLTCT.m */; };
 		B5C190A219B998840018B82F /* ViewControllerAA.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190A119B998840018B82F /* ViewControllerAA.m */; };
 		B5C190A519B9992A0018B82F /* ViewControllerEOY.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190A419B9992A0018B82F /* ViewControllerEOY.m */; };
 		B5C190A819B999740018B82F /* ViewControllerExamPick.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190A719B999740018B82F /* ViewControllerExamPick.m */; };
 		B5C190AB19B99A100018B82F /* ViewControllerSubjectPick.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190AA19B99A100018B82F /* ViewControllerSubjectPick.m */; };
-		B5C190B119B99ABD0018B82F /* ViewControllerADMTExamPick.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190B019B99ABD0018B82F /* ViewControllerADMTExamPick.m */; };
 		F903796819AB156300CACEF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F903796719AB156300CACEF9 /* Foundation.framework */; };
 		F903796A19AB156300CACEF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F903796919AB156300CACEF9 /* CoreGraphics.framework */; };
 		F903796C19AB156300CACEF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F903796B19AB156300CACEF9 /* UIKit.framework */; };
@@ -50,18 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F40FDA119C73EC40085C88C /* OverviewGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverviewGraph.h; sourceTree = "<group>"; };
+		0F40FDA219C73EC40085C88C /* OverviewGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewGraph.m; sourceTree = "<group>"; };
+		0F40FDA419C743A60085C88C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0F40FDA719C745050085C88C /* MarksCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarksCalculator.xcdatamodel; sourceTree = "<group>"; };
 		97304C7F19BADFFB00A27AA7 /* Html-source-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Html-source-code.png"; sourceTree = "<group>"; };
 		97304C8019BADFFB00A27AA7 /* IOS 7 ico 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS 7 ico 120x120.png"; sourceTree = "<group>"; };
 		97304C8119BADFFB00A27AA7 /* Score Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score Calculator.png"; sourceTree = "<group>"; };
 		97657BBB19BB32700086EB02 /* Score cal splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score cal splash.png"; sourceTree = "<group>"; };
 		9797BF5319BC0E4200099415 /* ViewControllerAboutus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAboutus.h; sourceTree = "<group>"; };
 		9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAboutus.m; sourceTree = "<group>"; };
-		B5C1908619B995050018B82F /* ViewControllerADMTEoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerADMTEoy.h; path = ../ViewControllerADMTEoy.h; sourceTree = "<group>"; };
-		B5C1908719B995050018B82F /* ViewControllerADMTEoy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerADMTEoy.m; path = ../ViewControllerADMTEoy.m; sourceTree = "<group>"; };
-		B5C1908819B995050018B82F /* ViewControllerADMTEoy.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewControllerADMTEoy.xib; path = ../ViewControllerADMTEoy.xib; sourceTree = "<group>"; };
-		B5C1908B19B995240018B82F /* ViewControllerADMTCm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerADMTCm.h; sourceTree = "<group>"; };
-		B5C1908C19B995240018B82F /* ViewControllerADMTCm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerADMTCm.m; sourceTree = "<group>"; };
-		B5C1908D19B995240018B82F /* ViewControllerADMTCm.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerADMTCm.xib; sourceTree = "<group>"; };
 		B5C1909A19B997EE0018B82F /* ViewControllerLevelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerLevelTest.h; path = "Marks Calculator/ViewControllerLevelTest.h"; sourceTree = "<group>"; };
 		B5C1909B19B997EE0018B82F /* ViewControllerLevelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerLevelTest.m; path = "Marks Calculator/ViewControllerLevelTest.m"; sourceTree = "<group>"; };
 		B5C1909D19B998540018B82F /* ViewControllerLTCT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLTCT.h; sourceTree = "<group>"; };
@@ -74,8 +70,6 @@
 		B5C190A719B999740018B82F /* ViewControllerExamPick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerExamPick.m; sourceTree = "<group>"; };
 		B5C190A919B99A100018B82F /* ViewControllerSubjectPick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSubjectPick.h; sourceTree = "<group>"; };
 		B5C190AA19B99A100018B82F /* ViewControllerSubjectPick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSubjectPick.m; sourceTree = "<group>"; };
-		B5C190AF19B99ABD0018B82F /* ViewControllerADMTExamPick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerADMTExamPick.h; path = "Marks Calculator/ViewControllerADMTExamPick.h"; sourceTree = "<group>"; };
-		B5C190B019B99ABD0018B82F /* ViewControllerADMTExamPick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerADMTExamPick.m; path = "Marks Calculator/ViewControllerADMTExamPick.m"; sourceTree = "<group>"; };
 		F903796419AB156300CACEF9 /* Marks Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marks Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F903796719AB156300CACEF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F903796919AB156300CACEF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -102,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F40FDA519C743A60085C88C /* CoreData.framework in Frameworks */,
 				F903796A19AB156300CACEF9 /* CoreGraphics.framework in Frameworks */,
 				F903796C19AB156300CACEF9 /* UIKit.framework in Frameworks */,
 				F903796819AB156300CACEF9 /* Foundation.framework in Frameworks */,
@@ -124,9 +119,10 @@
 		F903795B19AB156300CACEF9 = {
 			isa = PBXGroup;
 			children = (
-				B5C190AF19B99ABD0018B82F /* ViewControllerADMTExamPick.h */,
-				B5C190B019B99ABD0018B82F /* ViewControllerADMTExamPick.m */,
+				0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */,
 				B5C1909A19B997EE0018B82F /* ViewControllerLevelTest.h */,
+				0F40FDA119C73EC40085C88C /* OverviewGraph.h */,
+				0F40FDA219C73EC40085C88C /* OverviewGraph.m */,
 				B5C1909B19B997EE0018B82F /* ViewControllerLevelTest.m */,
 				F903796D19AB156300CACEF9 /* Marks Calculator */,
 				F903798C19AB156300CACEF9 /* Marks CalculatorTests */,
@@ -151,6 +147,7 @@
 		F903796619AB156300CACEF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F40FDA419C743A60085C88C /* CoreData.framework */,
 				F903796719AB156300CACEF9 /* Foundation.framework */,
 				F903796919AB156300CACEF9 /* CoreGraphics.framework */,
 				F903796B19AB156300CACEF9 /* UIKit.framework */,
@@ -177,14 +174,8 @@
 				B5C190A119B998840018B82F /* ViewControllerAA.m */,
 				B5C1909D19B998540018B82F /* ViewControllerLTCT.h */,
 				B5C1909E19B998540018B82F /* ViewControllerLTCT.m */,
-				B5C1908B19B995240018B82F /* ViewControllerADMTCm.h */,
-				B5C1908C19B995240018B82F /* ViewControllerADMTCm.m */,
-				B5C1908619B995050018B82F /* ViewControllerADMTEoy.h */,
-				B5C1908719B995050018B82F /* ViewControllerADMTEoy.m */,
 				F903797C19AB156300CACEF9 /* ViewController.h */,
 				F903797D19AB156300CACEF9 /* ViewController.m */,
-				B5C1908D19B995240018B82F /* ViewControllerADMTCm.xib */,
-				B5C1908819B995050018B82F /* ViewControllerADMTEoy.xib */,
 				F903797F19AB156300CACEF9 /* Images.xcassets */,
 				F903796E19AB156300CACEF9 /* Supporting Files */,
 			);
@@ -298,12 +289,10 @@
 			files = (
 				97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */,
 				97304C8319BADFFB00A27AA7 /* IOS 7 ico 120x120.png in Resources */,
-				B5C1908A19B995050018B82F /* ViewControllerADMTEoy.xib in Resources */,
 				F903798019AB156300CACEF9 /* Images.xcassets in Resources */,
 				F903797219AB156300CACEF9 /* InfoPlist.strings in Resources */,
 				97657BBC19BB32700086EB02 /* Score cal splash.png in Resources */,
 				97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */,
-				B5C1908F19B995240018B82F /* ViewControllerADMTCm.xib in Resources */,
 				F903797B19AB156300CACEF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,17 +314,16 @@
 			files = (
 				B5C190A519B9992A0018B82F /* ViewControllerEOY.m in Sources */,
 				B5C190AB19B99A100018B82F /* ViewControllerSubjectPick.m in Sources */,
-				B5C1908919B995050018B82F /* ViewControllerADMTEoy.m in Sources */,
 				F903797E19AB156300CACEF9 /* ViewController.m in Sources */,
 				F903797819AB156300CACEF9 /* AppDelegate.m in Sources */,
 				B5C1909C19B997EE0018B82F /* ViewControllerLevelTest.m in Sources */,
 				F903797419AB156300CACEF9 /* main.m in Sources */,
 				B5C190A819B999740018B82F /* ViewControllerExamPick.m in Sources */,
 				9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */,
+				0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */,
 				B5C1909F19B998540018B82F /* ViewControllerLTCT.m in Sources */,
 				B5C190A219B998840018B82F /* ViewControllerAA.m in Sources */,
-				B5C190B119B99ABD0018B82F /* ViewControllerADMTExamPick.m in Sources */,
-				B5C1908E19B995240018B82F /* ViewControllerADMTCm.m in Sources */,
+				0F40FDA319C73EC40085C88C /* OverviewGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +542,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F40FDA719C745050085C88C /* MarksCalculator.xcdatamodel */,
+			);
+			currentVersion = 0F40FDA719C745050085C88C /* MarksCalculator.xcdatamodel */;
+			path = MarksCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F903795C19AB156300CACEF9 /* Project object */;
 }
