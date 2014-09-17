@@ -62,17 +62,25 @@
 - (IBAction)Scoreb:(id)sender {
     [sender resignFirstResponder];
 }
+
 - (IBAction)Totalb:(id)sender {
     [sender resignFirstResponder];
 }
 
-- (IBAction)calculate:(id)sender {
+- (IBAction)cal:(id)sender {
+    float a = [_Score.text floatValue];
+    float b = [_Total.text floatValue];
     
-    float score = [_Score.text floatValue];
-    float total = [_Total.text floatValue];
+    float c = (a / b) * 100;
+    if (a < b) {
+    [_Display setText:[NSString stringWithFormat:@"%0.1f", c]];
+    }
+    else
+    {
+        [_Display setText:@"invalid input"];
+    }
     
-    float result = (score / total) * 100;
-    
-    [_marks setText: [NSString stringWithFormat:@"%1.0f", result]];
 }
+
+
 @end

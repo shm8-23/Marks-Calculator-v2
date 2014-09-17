@@ -11,15 +11,11 @@
 @interface ViewControllerLTCT : UIViewController
 
 @property (strong, nonatomic) IBOutlet UITextField *Score;
-- (IBAction)Scoreb:(id)sender;
-
 @property (strong, nonatomic) IBOutlet UITextField *Total;
+- (IBAction)Scoreb:(id)sender;
 - (IBAction)Totalb:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UILabel *Display;
+- (IBAction)cal:(id)sender;
 
-- (IBAction)calculate:(id)sender;
-
-@property (strong, nonatomic) IBOutlet UILabel *marks;
-
-@property (strong, nonatomic) IBOutlet UILabel *comments;
 @end
