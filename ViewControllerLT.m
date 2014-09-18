@@ -1,31 +1,18 @@
 //
-//  ViewControllerLTCT.m
+//  ViewControllerLT.m
 //  Marks Calculator
 //
-//  Created by Benjamin Koh on 5/9/14.
+//  Created by Sean Lim :D on 18/9/14.
 //  Copyright (c) 2014 Shaun. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ViewControllerLT.h"
 
-#import "ViewControllerSubjectPick.h"
-
-#import "ViewControllerExamPick.h"
-
-#import "ViewControllerLevelTest.h"
-
-#import "ViewControllerLTCT.h"
-
-#import "ViewControllerAA.h"
-
-#import "ViewControllerEOY.h"
-
-
-@interface ViewControllerLTCT ()
+@interface ViewControllerLT ()
 
 @end
 
-@implementation ViewControllerLTCT
+@implementation ViewControllerLT
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -59,30 +46,27 @@
 }
 */
 
-- (IBAction)Scoreb:(id)sender {
+- (IBAction)scoreb:(id)sender {
     [sender resignFirstResponder];
 }
 
-- (IBAction)Totalb:(id)sender {
+- (IBAction)totalb:(id)sender {
     [sender resignFirstResponder];
 }
-
-- (IBAction)cal:(id)sender {
-    float a = [_Score.text floatValue];
-    float b = [_Total.text floatValue];
+- (IBAction)calculate:(id)sender {
+    
+    float a = [_score.text floatValue];
+    float b = [_total2.text floatValue];
     
     float c = (a / b) * 100;
-    if (a < b) {
-    [_Display setText:[NSString stringWithFormat:@"%0.1f", c]];
-    }
-    else
-    {
-        [_Display setText:@"Invalid Input"];
-    }
     
-    
+    if ( a < b ) {
+        
+    [_label setText: [NSString stringWithFormat: @"%0.1f", c]];
+        
+    }
+    else {
+        [_label setText: @"Invalid Input" ];
+    }
 }
-
-
-
 @end

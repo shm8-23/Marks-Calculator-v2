@@ -10,6 +10,7 @@
 		0F40FDA319C73EC40085C88C /* OverviewGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA219C73EC40085C88C /* OverviewGraph.m */; };
 		0F40FDA519C743A60085C88C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F40FDA419C743A60085C88C /* CoreData.framework */; };
 		0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */; };
+		970D5A4619CAB84A0013C983 /* ViewControllerLT.m in Sources */ = {isa = PBXBuildFile; fileRef = 970D5A4519CAB84A0013C983 /* ViewControllerLT.m */; };
 		97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C7F19BADFFB00A27AA7 /* Html-source-code.png */; };
 		97304C8319BADFFB00A27AA7 /* IOS 7 ico 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8019BADFFB00A27AA7 /* IOS 7 ico 120x120.png */; };
 		97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8119BADFFB00A27AA7 /* Score Calculator.png */; };
@@ -52,6 +53,8 @@
 		0F40FDA219C73EC40085C88C /* OverviewGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewGraph.m; sourceTree = "<group>"; };
 		0F40FDA419C743A60085C88C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0F40FDA719C745050085C88C /* MarksCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarksCalculator.xcdatamodel; sourceTree = "<group>"; };
+		970D5A4419CAB84A0013C983 /* ViewControllerLT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLT.h; sourceTree = "<group>"; };
+		970D5A4519CAB84A0013C983 /* ViewControllerLT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLT.m; sourceTree = "<group>"; };
 		97304C7F19BADFFB00A27AA7 /* Html-source-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Html-source-code.png"; sourceTree = "<group>"; };
 		97304C8019BADFFB00A27AA7 /* IOS 7 ico 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS 7 ico 120x120.png"; sourceTree = "<group>"; };
 		97304C8119BADFFB00A27AA7 /* Score Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score Calculator.png"; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 		F903795B19AB156300CACEF9 = {
 			isa = PBXGroup;
 			children = (
+				970D5A4419CAB84A0013C983 /* ViewControllerLT.h */,
+				970D5A4519CAB84A0013C983 /* ViewControllerLT.m */,
 				0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */,
 				B5C1909A19B997EE0018B82F /* ViewControllerLevelTest.h */,
 				0F40FDA119C73EC40085C88C /* OverviewGraph.h */,
@@ -317,6 +322,7 @@
 				F903797E19AB156300CACEF9 /* ViewController.m in Sources */,
 				F903797819AB156300CACEF9 /* AppDelegate.m in Sources */,
 				B5C1909C19B997EE0018B82F /* ViewControllerLevelTest.m in Sources */,
+				970D5A4619CAB84A0013C983 /* ViewControllerLT.m in Sources */,
 				F903797419AB156300CACEF9 /* main.m in Sources */,
 				B5C190A819B999740018B82F /* ViewControllerExamPick.m in Sources */,
 				9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */,
