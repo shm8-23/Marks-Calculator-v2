@@ -10,27 +10,27 @@
 	<string>Marks Calculator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>EEB62DB3-06F7-426F-88DF-7DB024A78448</key>
+		<key>94E173D370B41E5615360CF9E4262C582A04FB8C</key>
 		<string>https://github.com/shm8-23/Marks-Calculator-v2/trunk</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Marks Calculator.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>EEB62DB3-06F7-426F-88DF-7DB024A78448</key>
+		<key>94E173D370B41E5615360CF9E4262C582A04FB8C</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
 	<dict>
-		<key>EEB62DB3-06F7-426F-88DF-7DB024A78448</key>
+		<key>94E173D370B41E5615360CF9E4262C582A04FB8C</key>
 		<string>https://github.com/shm8-23/Marks-Calculator-v2</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/shm8-23/Marks-Calculator-v2/trunk/Marks%20Calculator.xcodeproj</string>
+	<string>https://github.com/shm8-23/Marks-Calculator-v2/trunk/Marks%20Calculator.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EEB62DB3-06F7-426F-88DF-7DB024A78448</string>
+	<string>94E173D370B41E5615360CF9E4262C582A04FB8C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -41,7 +41,7 @@
 			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
 			<string>trunk</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EEB62DB3-06F7-426F-88DF-7DB024A78448</string>
+			<string>94E173D370B41E5615360CF9E4262C582A04FB8C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Marks-Calculator-v2</string>
 		</dict>
