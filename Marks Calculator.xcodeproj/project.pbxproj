@@ -263,6 +263,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Shaun;
 				TargetAttributes = {
+					F903796319AB156300CACEF9 = {
+						DevelopmentTeam = 7K6ZTDFM48;
+					};
 					F903798419AB156300CACEF9 = {
 						TestTargetID = F903796319AB156300CACEF9;
 					};
@@ -458,7 +461,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Marks Calculator/Marks Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Marks Calculator/Marks Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -472,7 +477,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Marks Calculator/Marks Calculator-Prefix.pch";
 				INFOPLIST_FILE = "Marks Calculator/Marks Calculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
