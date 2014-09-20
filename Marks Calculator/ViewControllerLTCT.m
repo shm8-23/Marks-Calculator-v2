@@ -72,13 +72,21 @@
     float b = [_Total.text floatValue];
     
     float c = (a / b) * 100;
-    if (a < b) {
+    
+    if (a < b)    {
     [_Display setText:[NSString stringWithFormat:@"%0.1f", c]];
     }
-    else
+    
+    else if (a > 9000)
     {
+        [_Display setText:@"Its over 9000!"];
+    }
+
+    else   {
         [_Display setText:@"Invalid Input"];
     }
+    
+    
     
     
 }
