@@ -16,6 +16,7 @@
 		97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8119BADFFB00A27AA7 /* Score Calculator.png */; };
 		97657BBC19BB32700086EB02 /* Score cal splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 97657BBB19BB32700086EB02 /* Score cal splash.png */; };
 		9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */; };
+		97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C43A5619CEA4180037062E /* ViewControllersem1.m */; };
 		B5C1909C19B997EE0018B82F /* ViewControllerLevelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1909B19B997EE0018B82F /* ViewControllerLevelTest.m */; };
 		B5C1909F19B998540018B82F /* ViewControllerLTCT.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1909E19B998540018B82F /* ViewControllerLTCT.m */; };
 		B5C190A219B998840018B82F /* ViewControllerAA.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190A119B998840018B82F /* ViewControllerAA.m */; };
@@ -61,6 +62,8 @@
 		97657BBB19BB32700086EB02 /* Score cal splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score cal splash.png"; sourceTree = "<group>"; };
 		9797BF5319BC0E4200099415 /* ViewControllerAboutus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAboutus.h; sourceTree = "<group>"; };
 		9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAboutus.m; sourceTree = "<group>"; };
+		97C43A5519CEA4180037062E /* ViewControllersem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem1.h; sourceTree = "<group>"; };
+		97C43A5619CEA4180037062E /* ViewControllersem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersem1.m; sourceTree = "<group>"; };
 		B5C1909A19B997EE0018B82F /* ViewControllerLevelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerLevelTest.h; path = "Marks Calculator/ViewControllerLevelTest.h"; sourceTree = "<group>"; };
 		B5C1909B19B997EE0018B82F /* ViewControllerLevelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerLevelTest.m; path = "Marks Calculator/ViewControllerLevelTest.m"; sourceTree = "<group>"; };
 		B5C1909D19B998540018B82F /* ViewControllerLTCT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLTCT.h; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 		F903795B19AB156300CACEF9 = {
 			isa = PBXGroup;
 			children = (
+				97C43A5519CEA4180037062E /* ViewControllersem1.h */,
+				97C43A5619CEA4180037062E /* ViewControllersem1.m */,
 				970D5A4419CAB84A0013C983 /* ViewControllerLT.h */,
 				970D5A4519CAB84A0013C983 /* ViewControllerLT.m */,
 				0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */,
@@ -326,6 +331,7 @@
 				F903797819AB156300CACEF9 /* AppDelegate.m in Sources */,
 				B5C1909C19B997EE0018B82F /* ViewControllerLevelTest.m in Sources */,
 				970D5A4619CAB84A0013C983 /* ViewControllerLT.m in Sources */,
+				97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */,
 				F903797419AB156300CACEF9 /* main.m in Sources */,
 				B5C190A819B999740018B82F /* ViewControllerExamPick.m in Sources */,
 				9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */,
