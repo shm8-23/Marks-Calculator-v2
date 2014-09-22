@@ -9,6 +9,7 @@
         <scene sceneID="Bin-K6-LLd">
             <objects>
                 <navigationController navigationBarHidden="YES" id="5bL-oo-lSE" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RdX-Zn-Fyi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -157,6 +158,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="BTL-g0-7OA"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="dev" destination="f8w-XC-1s0" id="g8e-dl-uoB"/>
                     </connections>
@@ -168,7 +170,7 @@
         <!--Easteregg-->
         <scene sceneID="3w2-hH-K4c">
             <objects>
-                <viewController title="Easteregg" id="6Iz-Kp-tQC" sceneMemberID="viewController">
+                <viewController title="Easteregg" id="6Iz-Kp-tQC" customClass="ViewControllerAboutus" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nBB-ae-Pke"/>
                         <viewControllerLayoutGuide type="bottom" id="fSd-KB-34O"/>
@@ -260,13 +262,17 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nEU-rI-3BZ" kind="modal" modalTransitionStyle="flipHorizontal" id="QFw-sP-BYa"/>
+                                    <segue destination="nEU-rI-3BZ" kind="modal" modalTransitionStyle="crossDissolve" id="QFw-sP-BYa"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="dev2" destination="rmQ-sP-II5" id="VN1-xw-GCK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PH0-GY-cU0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -959,10 +965,10 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="tzM-IX-0wU"/>
+        <segue reference="Aba-oG-w1E"/>
+        <segue reference="QFw-sP-BYa"/>
         <segue reference="Ftl-5P-ctA"/>
         <segue reference="I3u-Nd-eG4"/>
-        <segue reference="53E-wW-Mbs"/>
         <segue reference="AeA-L4-8im"/>
         <segue reference="53r-ns-4BC"/>
         <segue reference="Psy-O6-OaH"/>

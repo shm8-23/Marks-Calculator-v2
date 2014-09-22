@@ -14,7 +14,9 @@
 
 @implementation ViewControllerAboutus
 
-
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -25,10 +27,21 @@
     return self;
 }
 @synthesize dev;
+@synthesize dev2;
 - (void)viewDidLoad
+
+
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    
+    
+    [self setNeedsStatusBarAppearanceUpdate];
+    
+    
+    
     CGFloat leftRightMin = -55.0f;
     CGFloat leftRightMax = 55.0f;
     
@@ -47,6 +60,7 @@
                                     
                                     //Motion add
                                     [dev addMotionEffect:meGroup];
+    [dev2 addMotionEffect:meGroup];
 }
 
 - (void)didReceiveMemoryWarning
@@ -66,9 +80,8 @@
 }
 */
 
--(void) applicationFinishedLaunching:(UIApplication*)application {
-    sleep(5);
-    
-}
+
+
+
 
 @end
