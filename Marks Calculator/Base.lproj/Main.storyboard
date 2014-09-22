@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="hYo-JC-AuS">
     <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Bin-K6-LLd">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="5bL-oo-lSE" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RdX-Zn-Fyi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="g7b-Ut-AOJ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="nEU-rI-3BZ" kind="relationship" relationship="rootViewController" id="53E-wW-Mbs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M1N-b8-3ws" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1399" y="-1577"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="D8v-Lb-y4D">
             <objects>
@@ -53,7 +74,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nEU-rI-3BZ" kind="modal" id="A1K-1z-8WF"/>
+                                    <segue destination="5bL-oo-lSE" kind="modal" id="Ovx-9O-v9c"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UsA-iU-l3Y">
@@ -135,7 +156,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <nil key="simulatedStatusBarMetrics"/>
+                    <navigationItem key="navigationItem" id="BTL-g0-7OA"/>
                     <connections>
                         <outlet property="dev" destination="f8w-XC-1s0" id="g8e-dl-uoB"/>
                     </connections>
@@ -245,6 +266,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PH0-GY-cU0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -679,12 +701,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quick Calculation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lof-LC-6jj">
-                                <rect key="frame" x="72" y="95" width="177" height="28"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JX9-hF-gdx">
                                 <rect key="frame" x="95" y="216" width="130" height="34"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="18"/>
@@ -716,6 +732,12 @@
                                     <segue destination="hYo-JC-AuS" kind="modal" modalTransitionStyle="crossDissolve" id="K09-FB-Q1k"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quick Calculation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lof-LC-6jj">
+                                <rect key="frame" x="58" y="95" width="204" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -930,13 +952,13 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="1pV-Sp-Uha"/>
-        <segue reference="kfe-Kd-pX6"/>
-        <segue reference="Aba-oG-w1E"/>
-        <segue reference="QFw-sP-BYa"/>
-        <segue reference="AeA-L4-8im"/>
-        <segue reference="53r-ns-4BC"/>
-        <segue reference="Q23-l3-Ef9"/>
         <segue reference="I3u-Nd-eG4"/>
+        <segue reference="Ftl-5P-ctA"/>
+        <segue reference="Aba-oG-w1E"/>
+        <segue reference="53E-wW-Mbs"/>
+        <segue reference="kfe-Kd-pX6"/>
+        <segue reference="1pV-Sp-Uha"/>
+        <segue reference="53r-ns-4BC"/>
+        <segue reference="AeA-L4-8im"/>
     </inferredMetricsTieBreakers>
 </document>
