@@ -374,7 +374,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ZOr-6a-PqQ" kind="modal" id="Q23-l3-Ef9"/>
+                                    <segue destination="ZOr-6a-PqQ" kind="modal" modalTransitionStyle="crossDissolve" id="Q23-l3-Ef9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -401,7 +401,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Score" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="71d-Hx-Y3u">
                                 <rect key="frame" x="49" y="188" width="97" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                 <connections>
                                     <action selector="scoreb:" destination="Ouo-iR-kxE" eventType="editingDidEndOnExit" id="L9N-hn-B3R"/>
                                 </connections>
@@ -409,7 +409,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Total" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7fY-OQ-fFj">
                                 <rect key="frame" x="207" y="188" width="97" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                 <connections>
                                     <action selector="totalb:" destination="Ouo-iR-kxE" eventType="editingDidEndOnExit" id="a02-w4-D5r"/>
                                 </connections>
@@ -509,7 +509,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Score" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rio-IK-bHl">
                                 <rect key="frame" x="52" y="174" width="97" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="alert" returnKeyType="go"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="light" returnKeyType="go"/>
                                 <connections>
                                     <action selector="Scoreb:" destination="7Cc-SY-GTr" eventType="editingDidEndOnExit" id="HNl-VA-KgT"/>
                                 </connections>
@@ -517,7 +517,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Total" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ofS-ko-2aF">
                                 <rect key="frame" x="210" y="174" width="97" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="alert" returnKeyType="go"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" keyboardAppearance="light" returnKeyType="go"/>
                                 <connections>
                                     <action selector="Totalb:" destination="7Cc-SY-GTr" eventType="editingDidEndOnExit" id="BrG-Yz-IEd"/>
                                 </connections>
@@ -789,7 +789,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4Xv-Lf-Hij" kind="modal" modalTransitionStyle="coverVertical" id="znr-T6-xAY"/>
+                                    <segue destination="4Xv-Lf-Hij" kind="modal" modalTransitionStyle="flipHorizontal" id="znr-T6-xAY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mp0-Vd-KeH">
@@ -836,7 +836,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wQf-vb-SgB" kind="modal" modalTransitionStyle="crossDissolve" id="AoF-cG-bSk"/>
+                                    <segue destination="wQf-vb-SgB" kind="modal" modalTransitionStyle="flipHorizontal" id="AoF-cG-bSk"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3M-Ju-t2C">
@@ -848,7 +848,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LT1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sVe-jd-338">
                                 <rect key="frame" x="112" y="133" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                 <connections>
                                     <action selector="LTB:" destination="Sc8-8Z-2Fs" eventType="editingDidEndOnExit" id="7rA-0Y-j0n"/>
                                     <action selector="LTB:" destination="Sc8-8Z-2Fs" eventType="editingDidEnd" id="EiI-NG-dzP"/>
@@ -857,7 +857,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CT" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TE0-dX-tC8">
                                 <rect key="frame" x="112" y="200" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="go"/>
                                 <connections>
                                     <action selector="CTB:" destination="Sc8-8Z-2Fs" eventType="editingDidEnd" id="doM-IP-0ji"/>
                                     <action selector="CTB:" destination="Sc8-8Z-2Fs" eventType="editingDidEndOnExit" id="tiV-ho-yGJ"/>
@@ -967,11 +967,11 @@
     <inferredMetricsTieBreakers>
         <segue reference="Aba-oG-w1E"/>
         <segue reference="QFw-sP-BYa"/>
-        <segue reference="Ftl-5P-ctA"/>
-        <segue reference="I3u-Nd-eG4"/>
         <segue reference="AeA-L4-8im"/>
         <segue reference="53r-ns-4BC"/>
-        <segue reference="Psy-O6-OaH"/>
+        <segue reference="Q23-l3-Ef9"/>
+        <segue reference="I3u-Nd-eG4"/>
+        <segue reference="1pV-Sp-Uha"/>
         <segue reference="AoF-cG-bSk"/>
     </inferredMetricsTieBreakers>
 </document>
