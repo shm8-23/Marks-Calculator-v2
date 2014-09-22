@@ -872,19 +872,26 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLM-Nj-Pgo">
+                                <rect key="frame" x="82" y="459" width="156" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="1" green="0.44358331890000002" blue="0.47916187220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="CT" destination="TE0-dX-tC8" id="HAR-pE-07z"/>
                         <outlet property="LT1" destination="sVe-jd-338" id="Qgd-nq-t6c"/>
+                        <outlet property="inv" destination="bLM-Nj-Pgo" id="0oL-2K-3XE"/>
                         <outlet property="output" destination="e3M-Ju-t2C" id="ZMh-L4-UZ9"/>
                         <outlet property="outputc" destination="sQK-Uc-l2t" id="f1M-EK-pKc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JOa-be-gC2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="931" y="467"/>
+            <point key="canvasLocation" x="931" y="464"/>
         </scene>
         <!--sem2-->
         <scene sceneID="CeS-WL-miQ">
@@ -930,7 +937,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hYo-JC-AuS" kind="modal" modalTransitionStyle="flipHorizontal" id="tzM-IX-0wU"/>
+                                    <segue destination="hYo-JC-AuS" kind="modal" modalTransitionStyle="crossDissolve" id="tzM-IX-0wU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -952,13 +959,13 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="I3u-Nd-eG4"/>
+        <segue reference="tzM-IX-0wU"/>
         <segue reference="Ftl-5P-ctA"/>
-        <segue reference="Aba-oG-w1E"/>
+        <segue reference="I3u-Nd-eG4"/>
         <segue reference="53E-wW-Mbs"/>
-        <segue reference="kfe-Kd-pX6"/>
-        <segue reference="1pV-Sp-Uha"/>
-        <segue reference="53r-ns-4BC"/>
         <segue reference="AeA-L4-8im"/>
+        <segue reference="53r-ns-4BC"/>
+        <segue reference="Psy-O6-OaH"/>
+        <segue reference="AoF-cG-bSk"/>
     </inferredMetricsTieBreakers>
 </document>

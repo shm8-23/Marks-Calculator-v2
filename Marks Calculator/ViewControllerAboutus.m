@@ -66,4 +66,9 @@
 }
 */
 
+-(void) applicationFinishedLaunching:(UIApplication*)application {
+    sleep(5);
+    
+}
+
 @end

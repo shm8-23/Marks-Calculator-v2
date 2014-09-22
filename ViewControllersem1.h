@@ -19,4 +19,5 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *output;
 @property (strong, nonatomic) IBOutlet UILabel *outputc;
+@property (strong, nonatomic) IBOutlet UILabel *inv;
 @end
