@@ -12,11 +12,11 @@
 		0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */; };
 		970D5A4619CAB84A0013C983 /* ViewControllerLT.m in Sources */ = {isa = PBXBuildFile; fileRef = 970D5A4519CAB84A0013C983 /* ViewControllerLT.m */; };
 		97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C7F19BADFFB00A27AA7 /* Html-source-code.png */; };
-		97304C8319BADFFB00A27AA7 /* IOS 7 ico 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8019BADFFB00A27AA7 /* IOS 7 ico 120x120.png */; };
 		97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8119BADFFB00A27AA7 /* Score Calculator.png */; };
 		97657BBC19BB32700086EB02 /* Score cal splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 97657BBB19BB32700086EB02 /* Score cal splash.png */; };
 		9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */; };
 		97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C43A5619CEA4180037062E /* ViewControllersem1.m */; };
+		97D9216719CFE5660036E862 /* ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 97D9216619CFE5660036E862 /* ICON.png */; };
 		B5C1909C19B997EE0018B82F /* ViewControllerLevelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1909B19B997EE0018B82F /* ViewControllerLevelTest.m */; };
 		B5C1909F19B998540018B82F /* ViewControllerLTCT.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1909E19B998540018B82F /* ViewControllerLTCT.m */; };
 		B5C190A219B998840018B82F /* ViewControllerAA.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190A119B998840018B82F /* ViewControllerAA.m */; };
@@ -57,13 +57,13 @@
 		970D5A4419CAB84A0013C983 /* ViewControllerLT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLT.h; sourceTree = "<group>"; };
 		970D5A4519CAB84A0013C983 /* ViewControllerLT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLT.m; sourceTree = "<group>"; };
 		97304C7F19BADFFB00A27AA7 /* Html-source-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Html-source-code.png"; sourceTree = "<group>"; };
-		97304C8019BADFFB00A27AA7 /* IOS 7 ico 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IOS 7 ico 120x120.png"; sourceTree = "<group>"; };
 		97304C8119BADFFB00A27AA7 /* Score Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score Calculator.png"; sourceTree = "<group>"; };
 		97657BBB19BB32700086EB02 /* Score cal splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score cal splash.png"; sourceTree = "<group>"; };
 		9797BF5319BC0E4200099415 /* ViewControllerAboutus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAboutus.h; sourceTree = "<group>"; };
 		9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAboutus.m; sourceTree = "<group>"; };
 		97C43A5519CEA4180037062E /* ViewControllersem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem1.h; sourceTree = "<group>"; };
 		97C43A5619CEA4180037062E /* ViewControllersem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersem1.m; sourceTree = "<group>"; };
+		97D9216619CFE5660036E862 /* ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON.png; sourceTree = "<group>"; };
 		B5C1909A19B997EE0018B82F /* ViewControllerLevelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerLevelTest.h; path = "Marks Calculator/ViewControllerLevelTest.h"; sourceTree = "<group>"; };
 		B5C1909B19B997EE0018B82F /* ViewControllerLevelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerLevelTest.m; path = "Marks Calculator/ViewControllerLevelTest.m"; sourceTree = "<group>"; };
 		B5C1909D19B998540018B82F /* ViewControllerLTCT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLTCT.h; sourceTree = "<group>"; };
@@ -125,6 +125,7 @@
 		F903795B19AB156300CACEF9 = {
 			isa = PBXGroup;
 			children = (
+				97D9216619CFE5660036E862 /* ICON.png */,
 				97C43A5519CEA4180037062E /* ViewControllersem1.h */,
 				97C43A5619CEA4180037062E /* ViewControllersem1.m */,
 				970D5A4419CAB84A0013C983 /* ViewControllerLT.h */,
@@ -139,7 +140,6 @@
 				F903796619AB156300CACEF9 /* Frameworks */,
 				F903796519AB156300CACEF9 /* Products */,
 				97304C7F19BADFFB00A27AA7 /* Html-source-code.png */,
-				97304C8019BADFFB00A27AA7 /* IOS 7 ico 120x120.png */,
 				97304C8119BADFFB00A27AA7 /* Score Calculator.png */,
 				97657BBB19BB32700086EB02 /* Score cal splash.png */,
 			);
@@ -301,12 +301,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */,
-				97304C8319BADFFB00A27AA7 /* IOS 7 ico 120x120.png in Resources */,
 				F903798019AB156300CACEF9 /* Images.xcassets in Resources */,
 				F903797219AB156300CACEF9 /* InfoPlist.strings in Resources */,
 				97657BBC19BB32700086EB02 /* Score cal splash.png in Resources */,
 				97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */,
 				F903797B19AB156300CACEF9 /* Main.storyboard in Resources */,
+				97D9216719CFE5660036E862 /* ICON.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
