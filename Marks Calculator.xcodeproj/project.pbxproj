@@ -11,6 +11,7 @@
 		0F40FDA519C743A60085C88C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F40FDA419C743A60085C88C /* CoreData.framework */; };
 		0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */; };
 		970D5A4619CAB84A0013C983 /* ViewControllerLT.m in Sources */ = {isa = PBXBuildFile; fileRef = 970D5A4519CAB84A0013C983 /* ViewControllerLT.m */; };
+		971ADE7919DC4369003774CB /* ViewControllersem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 971ADE7819DC4369003774CB /* ViewControllersem2.m */; };
 		97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C7F19BADFFB00A27AA7 /* Html-source-code.png */; };
 		97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8119BADFFB00A27AA7 /* Score Calculator.png */; };
 		9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */; };
@@ -56,6 +57,8 @@
 		0F40FDA719C745050085C88C /* MarksCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarksCalculator.xcdatamodel; sourceTree = "<group>"; };
 		970D5A4419CAB84A0013C983 /* ViewControllerLT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLT.h; sourceTree = "<group>"; };
 		970D5A4519CAB84A0013C983 /* ViewControllerLT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLT.m; sourceTree = "<group>"; };
+		971ADE7719DC4369003774CB /* ViewControllersem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem2.h; sourceTree = "<group>"; };
+		971ADE7819DC4369003774CB /* ViewControllersem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersem2.m; sourceTree = "<group>"; };
 		97304C7F19BADFFB00A27AA7 /* Html-source-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Html-source-code.png"; sourceTree = "<group>"; };
 		97304C8119BADFFB00A27AA7 /* Score Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score Calculator.png"; sourceTree = "<group>"; };
 		9797BF5319BC0E4200099415 /* ViewControllerAboutus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAboutus.h; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 		F903795B19AB156300CACEF9 = {
 			isa = PBXGroup;
 			children = (
+				971ADE7719DC4369003774CB /* ViewControllersem2.h */,
+				971ADE7819DC4369003774CB /* ViewControllersem2.m */,
 				97D9216619CFE5660036E862 /* ICON.png */,
 				97C43A5519CEA4180037062E /* ViewControllersem1.h */,
 				97C43A5619CEA4180037062E /* ViewControllersem1.m */,
@@ -327,6 +332,7 @@
 			files = (
 				B5C190A519B9992A0018B82F /* ViewControllerEOY.m in Sources */,
 				B5C190AB19B99A100018B82F /* ViewControllerSubjectPick.m in Sources */,
+				971ADE7919DC4369003774CB /* ViewControllersem2.m in Sources */,
 				F903797E19AB156300CACEF9 /* ViewController.m in Sources */,
 				F903797819AB156300CACEF9 /* AppDelegate.m in Sources */,
 				B5C1909C19B997EE0018B82F /* ViewControllerLevelTest.m in Sources */,
