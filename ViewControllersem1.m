@@ -44,7 +44,7 @@
 }
 
 - (IBAction)calculate:(id)sender {
-    BOOL o = false;
+   
     float LT = [_LT1.text floatValue];
     float CT = [_CT.text floatValue];
     float a = (LT / 100) * 10;
@@ -52,26 +52,31 @@
     float c = a + b;
     float d = (c / 30) * 100;
    
-    if (d < 100){
-    [_output setText:[ NSString stringWithFormat:@"%0.1f", d]];
-        o = true;
-    }
-    else
-    { [_inv setText:@"Invalid Input"];
+    if (LT > 100) {
+    
+        [_inv setText:@" Invalid Input "];
         [_output setText:@" "];
         [_outputc setText:@" "];
         
-        
-        
     }
     
-    if ( d < 50 ){
-        [_outputc setText:@"You Failed!"];
-        [_inv setText:@" "];
+    else if (CT > 100) {
+        [_inv setText:@" Invalid Input "];
+        [_output setText:@" "];
+        [_outputc setText:@" "];
     }
-    else if ( o == true){
-        [_outputc setText:@"You Passed!"];
-     [_inv setText:@" "];
+    
+    else if (d < 50){
+        [_output setText:[NSString stringWithFormat:@"%0.1f", d]];
+        [_inv setText:@"You Failed!"];
+        [_outputc setText:@" "];
+        
+    }
+    else {
+        [_output setText: [NSString stringWithFormat:@"%0.1f", d] ];
+        
+        [_inv setText:@" "];
+        [_outputc setText:@" You Passed! "];
         
     }
     
