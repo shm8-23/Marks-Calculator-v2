@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewControllersem2 : UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *cal;
+@property (strong, nonatomic) IBOutlet UITextField *eoys;
 
 @end
