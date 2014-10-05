@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewControllersem2 : UIViewController
-@property (strong, nonatomic) IBOutlet UIButton *cal;
+@property (strong, nonatomic) IBOutlet UITextField *LT;
 @property (strong, nonatomic) IBOutlet UITextField *eoys;
+
+- (IBAction)cal:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UILabel *out;
+- (IBAction)ltb:(id)sender;
+- (IBAction)EOYb:(id)sender;
 
 @end

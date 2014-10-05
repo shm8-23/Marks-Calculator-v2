@@ -923,6 +923,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Semester Two" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJc-8r-k44">
+                                <rect key="frame" x="93" y="30" width="135" height="45"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LT2" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pSL-Do-I5c">
+                                <rect key="frame" x="112" y="126" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="ltb:" destination="4Xv-Lf-Hij" eventType="editingDidEndOnExit" id="VDu-ch-C0P"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="EOYs" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2rZ-zj-erK">
+                                <rect key="frame" x="112" y="190" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="EOYb:" destination="4Xv-Lf-Hij" eventType="editingDidEndOnExit" id="sOQ-pS-TNm"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ssd-33-NOA">
+                                <rect key="frame" x="128" y="327" width="65" height="30"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cal:" destination="4Xv-Lf-Hij" eventType="touchUpInside" id="E72-Y1-R6l"/>
+                                    <action selector="cal:" destination="4Xv-Lf-Hij" eventType="editingDidEndOnExit" id="L1H-t4-EGX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ujf-Ov-c5q">
+                                <rect key="frame" x="110" y="427" width="101" height="53"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCJ-gV-eLD">
                                 <rect key="frame" x="16" y="20" width="50" height="50"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
@@ -930,40 +968,22 @@
                                     <color key="titleColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Semester Two" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJc-8r-k44">
-                                <rect key="frame" x="93" y="30" width="135" height="45"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LT2" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1hk-kB-1GL">
-                                <rect key="frame" x="112" y="131" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="EOYs" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gSV-vR-C59">
-                                <rect key="frame" x="112" y="187" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIA-Sy-OSI">
-                                <rect key="frame" x="128" y="377" width="65" height="30"/>
-                                <state key="normal" title="Calculate">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <connections>
+                                    <segue destination="wQf-vb-SgB" kind="modal" modalTransitionStyle="flipHorizontal" id="4EW-ym-FvY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="cal" destination="oIA-Sy-OSI" id="kD7-kL-jhq"/>
-                        <outlet property="eoys" destination="gSV-vR-C59" id="kGG-0N-mwz"/>
+                        <outlet property="LT" destination="pSL-Do-I5c" id="2Bl-U8-Mfd"/>
+                        <outlet property="eoys" destination="2rZ-zj-erK" id="kTr-hV-uxJ"/>
+                        <outlet property="out" destination="Ujf-Ov-c5q" id="uB4-KW-k1L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3j7-Sh-ARp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="978" y="1138"/>
+            <point key="canvasLocation" x="894" y="1092"/>
         </scene>
         <!--Overview-->
         <scene sceneID="mSc-Zz-nOl">
@@ -1013,13 +1033,13 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="AeA-L4-8im"/>
         <segue reference="53r-ns-4BC"/>
-        <segue reference="Psy-O6-OaH"/>
-        <segue reference="Ftl-5P-ctA"/>
-        <segue reference="Aba-oG-w1E"/>
+        <segue reference="AeA-L4-8im"/>
+        <segue reference="4EW-ym-FvY"/>
         <segue reference="QFw-sP-BYa"/>
+        <segue reference="Aba-oG-w1E"/>
+        <segue reference="Ftl-5P-ctA"/>
         <segue reference="I3u-Nd-eG4"/>
-        <segue reference="AoF-cG-bSk"/>
+        <segue reference="Psy-O6-OaH"/>
     </inferredMetricsTieBreakers>
 </document>

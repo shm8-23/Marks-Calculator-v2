@@ -34,4 +34,23 @@
 }
 */
 
+
+
+- (IBAction)ltb:(id)sender {
+    [sender resignFirstResponder];
+}
+
+- (IBAction)EOYb:(id)sender {
+    [sender resignFirstResponder];
+}
+- (IBAction)cal:(id)sender {
+    float lt = [_LT.text floatValue];
+    float eoy = [_eoys.text floatValue];
+    float a = (lt / 100) * 10;
+    float b = (eoy / 100) * 40;
+    float d = a + b;
+    float c = (d / 50) * 100;
+    
+    [_out setText: [NSString stringWithFormat:@"%0.1f", c]];
+}
 @end
