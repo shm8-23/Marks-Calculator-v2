@@ -51,6 +51,16 @@
     float d = a + b;
     float c = (d / 50) * 100;
     
+    if (lt > 100) {
+        [_out setText:@"Invalid Value"];
+    }
+    else if (eoy > 100) {
+        [_out setText:@" Invalid Value"];
+    
+    }
+    else{
+    
     [_out setText: [NSString stringWithFormat:@"%0.1f", c]];
+    }
 }
 @end

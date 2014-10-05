@@ -288,7 +288,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PH0-GY-cU0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-913" y="-1541"/>
+            <point key="canvasLocation" x="-913" y="-1540.9999999999998"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RCP-pM-aWS">
@@ -314,7 +314,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Z3N-2p-UCk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wdz-5t-yR8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5We-ge-Czy">
@@ -396,7 +396,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U6F-sa-o7I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="844" y="-1092"/>
+            <point key="canvasLocation" x="844" y="-1091.9999999999998"/>
         </scene>
         <!--LT-->
         <scene sceneID="6ST-2T-WBB">
@@ -496,7 +496,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9tb-G5-QNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1512" y="-1798"/>
+            <point key="canvasLocation" x="1512" y="-1797.9999999999998"/>
         </scene>
         <!--QuickC-->
         <scene sceneID="cOY-Mi-KA6">
@@ -606,7 +606,7 @@
                         <viewControllerLayoutGuide type="bottom" id="h4C-tS-ev6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Xe-v8-tCm">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZsF-Ax-7er">
@@ -686,7 +686,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EbO-Nh-bzQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5" y="-1505"/>
+            <point key="canvasLocation" x="-5" y="-1504.9999999999998"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IgV-A0-jqZ">
@@ -820,7 +820,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bzc-0Y-ivn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="372" y="758.5"/>
+            <point key="canvasLocation" x="372" y="758.49999999999989"/>
         </scene>
         <!--View Controllersem1-->
         <scene sceneID="VrN-ps-Vdc">
@@ -955,7 +955,7 @@
                                     <action selector="cal:" destination="4Xv-Lf-Hij" eventType="editingDidEndOnExit" id="L1H-t4-EGX"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ujf-Ov-c5q">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ujf-Ov-c5q">
                                 <rect key="frame" x="110" y="427" width="101" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -983,7 +983,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3j7-Sh-ARp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="894" y="1092"/>
+            <point key="canvasLocation" x="931" y="1138"/>
         </scene>
         <!--Overview-->
         <scene sceneID="mSc-Zz-nOl">
@@ -1020,7 +1020,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ybk-On-bd4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12" y="-783"/>
+            <point key="canvasLocation" x="12" y="-782.99999999999989"/>
         </scene>
     </scenes>
     <resources>
@@ -1033,13 +1033,13 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="53r-ns-4BC"/>
-        <segue reference="AeA-L4-8im"/>
+        <segue reference="tzM-IX-0wU"/>
+        <segue reference="rqv-cX-K2O"/>
         <segue reference="4EW-ym-FvY"/>
         <segue reference="QFw-sP-BYa"/>
-        <segue reference="Aba-oG-w1E"/>
-        <segue reference="Ftl-5P-ctA"/>
-        <segue reference="I3u-Nd-eG4"/>
-        <segue reference="Psy-O6-OaH"/>
+        <segue reference="qdu-bd-GKX"/>
+        <segue reference="aJB-Ui-eoq"/>
+        <segue reference="dWK-2X-WVO"/>
+        <segue reference="Q23-l3-Ef9"/>
     </inferredMetricsTieBreakers>
 </document>
