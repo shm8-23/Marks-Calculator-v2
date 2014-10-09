@@ -51,16 +51,29 @@
     float d = a + b;
     float c = (d / 50) * 100;
     
-    if (lt > 100) {
-        [_out setText:@"Invalid Value"];
+    if (lt > 100 ) {
+        [_red setText:@"Invalid Value"];
+        [_out setText:@" "];
     }
     else if (eoy > 100) {
-        [_out setText:@" Invalid Value"];
+        [_red setText:@" Invalid Value"];
+        [_out setText:@" "];
     
     }
-    else{
+    else if ( c < 50){
+        [_red setText:@" You Failed! "];
+         [_out setText: [NSString stringWithFormat:@"%0.1f", c]];
+    }
+    
+    else if (c > 50 && c < 101) {
+        [_red setText:@" You Passed! "];
     
     [_out setText: [NSString stringWithFormat:@"%0.1f", c]];
+        
+    }
+    else {
+        [_red setText:@" Invalid Value"];
+        [_out setText:@" "];
     }
 }
 @end

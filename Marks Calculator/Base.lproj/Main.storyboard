@@ -314,7 +314,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Z3N-2p-UCk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wdz-5t-yR8">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5We-ge-Czy">
@@ -606,7 +606,7 @@
                         <viewControllerLayoutGuide type="bottom" id="h4C-tS-ev6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Xe-v8-tCm">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZsF-Ax-7er">
@@ -972,6 +972,12 @@
                                     <segue destination="wQf-vb-SgB" kind="modal" modalTransitionStyle="flipHorizontal" id="4EW-ym-FvY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZe-JB-Fye">
+                                <rect key="frame" x="94" y="393" width="132" height="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -979,11 +985,12 @@
                         <outlet property="LT" destination="pSL-Do-I5c" id="2Bl-U8-Mfd"/>
                         <outlet property="eoys" destination="2rZ-zj-erK" id="kTr-hV-uxJ"/>
                         <outlet property="out" destination="Ujf-Ov-c5q" id="uB4-KW-k1L"/>
+                        <outlet property="red" destination="NZe-JB-Fye" id="mGx-Iw-RPl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3j7-Sh-ARp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="931" y="1138"/>
+            <point key="canvasLocation" x="931" y="1133"/>
         </scene>
         <!--Overview-->
         <scene sceneID="mSc-Zz-nOl">

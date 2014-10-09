@@ -18,4 +18,5 @@
 - (IBAction)ltb:(id)sender;
 - (IBAction)EOYb:(id)sender;
 
+@property (strong, nonatomic) IBOutlet UILabel *red;
 @end
