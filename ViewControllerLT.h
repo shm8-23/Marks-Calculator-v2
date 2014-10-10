@@ -21,5 +21,6 @@
 - (IBAction)calculate:(id)sender;
 
 @property (strong, nonatomic) IBOutlet UILabel *label;
+@property (strong, nonatomic) IBOutlet UILabel *grade;
 
 @end

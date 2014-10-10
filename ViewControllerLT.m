@@ -60,13 +60,53 @@
     
     float c = (a / b) * 100;
     
-    if ( a < b ) {
+
         
-    [_label setText: [NSString stringWithFormat: @"%0.1f", c]];
-        
+    if (c < 44) {
+        [_grade setText:@"E8"];
+       [_label setText: [NSString stringWithFormat: @"%0.1f", c]];
     }
-    else {
-        [_label setText: @"Invalid Input" ];
-    }
+    else if (c < 49){
+        [_label setText: [NSString stringWithFormat: @"%0.1f", c]];
+        [_grade setText:@"D7"];}
+    else if (c < 54){
+           [_label setText: [NSString stringWithFormat: @"%0.1f", c]];
+        [_grade setText:@"C6"];}
+
+else if (c < 59){
+       [_label setText: [NSString stringWithFormat: @"%0.1f", c]];
+    [_grade setText:@"C5"];
+
 }
+    
+else if ( c < 64) {
+       [_label setText: [NSString stringWithFormat: @"%0.1f", c]];
+    [_grade setText:@"B4"];
+}
+else if (c < 69){
+       [_label setText: [NSString stringWithFormat: @"%0.1f", c]];
+    [_grade setText:@"B3"];
+}
+else if (c < 74){
+       [_label setText: [NSString stringWithFormat: @"%0.1f", c]];
+    [_grade setText:@"A2"];
+}
+else if (c > 75){
+       [_label setText: [NSString stringWithFormat: @"%0.1f", c]];
+    [_grade setText:@"A1"];
+}
+    
+else {
+       [_label setText:@" "];
+    [_grade setText:@"Invalid Input"];
+}
+    
+    
+
+
+}
+
+
+   
+
 @end

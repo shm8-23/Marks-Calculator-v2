@@ -65,15 +65,13 @@
          [_out setText: [NSString stringWithFormat:@"%0.1f", c]];
     }
     
-    else if (c > 50 && c < 101) {
+    else  {
         [_red setText:@" You Passed! "];
     
     [_out setText: [NSString stringWithFormat:@"%0.1f", c]];
         
     }
-    else {
-        [_red setText:@" Invalid Value"];
-        [_out setText:@" "];
-    }
+   
 }
+
 @end
