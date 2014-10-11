@@ -44,6 +44,8 @@
 }
 
 - (IBAction)calculate:(id)sender {
+    
+    //calculation
    
     float LT = [_LT1.text floatValue];
     float CT = [_CT.text floatValue];
@@ -51,34 +53,18 @@
     float b = (CT / 100) * 20;
     float c = a + b;
     float d = (c / 30) * 100;
+    
+    //set invisible marks
    
-    if (LT > 100) {
+ [_output setText:[NSString stringWithFormat:@"%0.1f", d]];
+ 
     
-        [_inv setText:@" Invalid Input "];
-        [_output setText:@" "];
-        [_outputc setText:@" "];
-        
-    }
+    //Save code
     
-    else if (CT > 100) {
-        [_inv setText:@" Invalid Input "];
-        [_output setText:@" "];
-        [_outputc setText:@" "];
-    }
-    
-    else if (d < 50){
-        [_output setText:[NSString stringWithFormat:@"%0.1f", d]];
-        [_inv setText:@"You Failed!"];
-        [_outputc setText:@" "];
-        
-    }
-    else {
-        [_output setText: [NSString stringWithFormat:@"%0.1f", d] ];
-        
-        [_inv setText:@" "];
-        [_outputc setText:@" You Passed! "];
-        
-    }
+    NSString *savemarks = _output.text;
+    NSUserDefaults *save =[NSUserDefaults standardUserDefaults];
+    [save setObject:savemarks forKey:@"savedmarkssem1"];
+    [save synchronize];
     
 }
 @end

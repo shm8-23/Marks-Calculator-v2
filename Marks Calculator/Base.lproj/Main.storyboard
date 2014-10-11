@@ -813,7 +813,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Sc8-8Z-2Fs" kind="modal" modalTransitionStyle="flipHorizontal" id="cw9-5d-EtP"/>
+                                    <segue destination="Sc8-8Z-2Fs" kind="modal" modalTransitionStyle="crossDissolve" id="cw9-5d-EtP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -854,7 +854,8 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LT1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sVe-jd-338">
-                                <rect key="frame" x="112" y="133" width="97" height="30"/>
+                                <rect key="frame" x="112" y="134" width="97" height="30"/>
+                                <color key="textColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="google"/>
                                 <connections>
@@ -863,7 +864,8 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="CT" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TE0-dX-tC8">
-                                <rect key="frame" x="112" y="200" width="97" height="30"/>
+                                <rect key="frame" x="112" y="201" width="97" height="30"/>
+                                <color key="textColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="google"/>
                                 <connections>
@@ -871,47 +873,103 @@
                                     <action selector="CTB:" destination="Sc8-8Z-2Fs" eventType="editingDidEndOnExit" id="tiV-ho-yGJ"/>
                                 </connections>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3M-Ju-t2C">
+                                <rect key="frame" x="119" y="452" width="82" height="43"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaM-Kh-Ly6">
-                                <rect key="frame" x="128" y="366" width="65" height="30"/>
+                                <rect key="frame" x="124" y="276" width="73" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Calculate">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="calculate:" destination="Sc8-8Z-2Fs" eventType="touchUpInside" id="neI-6w-2NV"/>
+                                    <segue destination="Oqe-Eg-I6X" kind="modal" modalTransitionStyle="flipHorizontal" id="o7t-4l-Tim"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQK-Uc-l2t">
-                                <rect key="frame" x="5" y="404" width="311" height="40"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLM-Nj-Pgo">
-                                <rect key="frame" x="82" y="411" width="156" height="26"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" red="1" green="0.44358331890000002" blue="0.47916187220000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3M-Ju-t2C">
-                                <rect key="frame" x="119" y="452" width="82" height="43"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
-                                <color key="textColor" red="0.40000000596046448" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="CT" destination="TE0-dX-tC8" id="HAR-pE-07z"/>
                         <outlet property="LT1" destination="sVe-jd-338" id="Qgd-nq-t6c"/>
-                        <outlet property="inv" destination="bLM-Nj-Pgo" id="0oL-2K-3XE"/>
                         <outlet property="output" destination="e3M-Ju-t2C" id="ZMh-L4-UZ9"/>
-                        <outlet property="outputc" destination="sQK-Uc-l2t" id="f1M-EK-pKc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JOa-be-gC2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="931" y="464"/>
+        </scene>
+        <!--semester 1 res-->
+        <scene sceneID="QMq-HW-k6f">
+            <objects>
+                <viewController title="semester 1 res" id="Oqe-Eg-I6X" customClass="sem1res" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="44x-cy-nwA"/>
+                        <viewControllerLayoutGuide type="bottom" id="V03-qh-6GS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UFk-Jh-EqH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLm-h2-pAR">
+                                <rect key="frame" x="125" y="266" width="70" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoI-Rf-iQf">
+                                <rect key="frame" x="135" y="514" width="50" height="34"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Sc8-8Z-2Fs" kind="modal" modalTransitionStyle="flipHorizontal" id="lT2-b2-XXr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You Got" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="se2-dE-9Hf">
+                                <rect key="frame" x="126" y="229" width="68" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="0.52273995535714279" green="0.52273995535714279" blue="0.52273995535714279" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOg-Ix-tR0">
+                                <rect key="frame" x="64" y="378" width="192" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DnS-QC-BGY">
+                                <rect key="frame" x="106" y="258" width="109" height="51"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZMd-6H-Kdr">
+                                <rect key="frame" x="82" y="366" width="156" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nQb-bu-4oJ"/>
+                    <connections>
+                        <outlet property="YG" destination="se2-dE-9Hf" id="fWd-BX-rja"/>
+                        <outlet property="comment" destination="ZMd-6H-Kdr" id="jsO-nK-XWM"/>
+                        <outlet property="invalid" destination="DnS-QC-BGY" id="BOQ-f5-LKp"/>
+                        <outlet property="res" destination="ZLm-h2-pAR" id="Vxx-1H-U98"/>
+                        <outlet property="warning" destination="qOg-Ix-tR0" id="zzb-8m-1Vq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l6I-uR-D6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1321" y="464"/>
         </scene>
         <!--sem2-->
         <scene sceneID="CeS-WL-miQ">
@@ -1042,13 +1100,14 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="QFw-sP-BYa"/>
+        <segue reference="AoF-cG-bSk"/>
+        <segue reference="cw9-5d-EtP"/>
+        <segue reference="qdu-bd-GKX"/>
+        <segue reference="53r-ns-4BC"/>
+        <segue reference="Q23-l3-Ef9"/>
+        <segue reference="dWK-2X-WVO"/>
         <segue reference="Psy-O6-OaH"/>
         <segue reference="K09-FB-Q1k"/>
-        <segue reference="dWK-2X-WVO"/>
-        <segue reference="Q23-l3-Ef9"/>
-        <segue reference="53r-ns-4BC"/>
-        <segue reference="qdu-bd-GKX"/>
-        <segue reference="AoF-cG-bSk"/>
+        <segue reference="QFw-sP-BYa"/>
     </inferredMetricsTieBreakers>
 </document>
