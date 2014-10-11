@@ -9,17 +9,7 @@
 
 #import "ViewController.h"
 
-#import "ViewControllerSubjectPick.h"
 
-#import "ViewControllerExamPick.h"
-
-#import "ViewControllerLevelTest.h"
-
-#import "ViewControllerLTCT.h"
-
-#import "ViewControllerAA.h"
-
-#import "ViewControllerEOY.h"
 
 @interface ViewController ()
 

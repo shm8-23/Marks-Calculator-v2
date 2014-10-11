@@ -10,7 +10,6 @@
 		0F40FDA319C73EC40085C88C /* OverviewGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA219C73EC40085C88C /* OverviewGraph.m */; };
 		0F40FDA519C743A60085C88C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F40FDA419C743A60085C88C /* CoreData.framework */; };
 		0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */; };
-		970D5A4619CAB84A0013C983 /* ViewControllerLT.m in Sources */ = {isa = PBXBuildFile; fileRef = 970D5A4519CAB84A0013C983 /* ViewControllerLT.m */; };
 		971ADE7919DC4369003774CB /* ViewControllersem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 971ADE7819DC4369003774CB /* ViewControllersem2.m */; };
 		97270F4419E95EFE00D44020 /* sem1res.m in Sources */ = {isa = PBXBuildFile; fileRef = 97270F4319E95EFE00D44020 /* sem1res.m */; };
 		97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C7F19BADFFB00A27AA7 /* Html-source-code.png */; };
@@ -19,12 +18,8 @@
 		97A9C4F419D4585500AB554C /* FINALSPALSH.png in Resources */ = {isa = PBXBuildFile; fileRef = 97A9C4F319D4585500AB554C /* FINALSPALSH.png */; };
 		97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C43A5619CEA4180037062E /* ViewControllersem1.m */; };
 		97D9216719CFE5660036E862 /* ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 97D9216619CFE5660036E862 /* ICON.png */; };
-		B5C1909C19B997EE0018B82F /* ViewControllerLevelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1909B19B997EE0018B82F /* ViewControllerLevelTest.m */; };
+		97FD190E19E96B180049D8DD /* Overview.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FD190D19E96B180049D8DD /* Overview.m */; };
 		B5C1909F19B998540018B82F /* ViewControllerLTCT.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1909E19B998540018B82F /* ViewControllerLTCT.m */; };
-		B5C190A219B998840018B82F /* ViewControllerAA.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190A119B998840018B82F /* ViewControllerAA.m */; };
-		B5C190A519B9992A0018B82F /* ViewControllerEOY.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190A419B9992A0018B82F /* ViewControllerEOY.m */; };
-		B5C190A819B999740018B82F /* ViewControllerExamPick.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190A719B999740018B82F /* ViewControllerExamPick.m */; };
-		B5C190AB19B99A100018B82F /* ViewControllerSubjectPick.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C190AA19B99A100018B82F /* ViewControllerSubjectPick.m */; };
 		F903796819AB156300CACEF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F903796719AB156300CACEF9 /* Foundation.framework */; };
 		F903796A19AB156300CACEF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F903796919AB156300CACEF9 /* CoreGraphics.framework */; };
 		F903796C19AB156300CACEF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F903796B19AB156300CACEF9 /* UIKit.framework */; };
@@ -56,8 +51,6 @@
 		0F40FDA219C73EC40085C88C /* OverviewGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewGraph.m; sourceTree = "<group>"; };
 		0F40FDA419C743A60085C88C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0F40FDA719C745050085C88C /* MarksCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarksCalculator.xcdatamodel; sourceTree = "<group>"; };
-		970D5A4419CAB84A0013C983 /* ViewControllerLT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLT.h; sourceTree = "<group>"; };
-		970D5A4519CAB84A0013C983 /* ViewControllerLT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLT.m; sourceTree = "<group>"; };
 		971ADE7719DC4369003774CB /* ViewControllersem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem2.h; sourceTree = "<group>"; };
 		971ADE7819DC4369003774CB /* ViewControllersem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersem2.m; sourceTree = "<group>"; };
 		97270F4219E95EFE00D44020 /* sem1res.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sem1res.h; sourceTree = "<group>"; };
@@ -70,18 +63,10 @@
 		97C43A5519CEA4180037062E /* ViewControllersem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem1.h; sourceTree = "<group>"; };
 		97C43A5619CEA4180037062E /* ViewControllersem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersem1.m; sourceTree = "<group>"; };
 		97D9216619CFE5660036E862 /* ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON.png; sourceTree = "<group>"; };
-		B5C1909A19B997EE0018B82F /* ViewControllerLevelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerLevelTest.h; path = "Marks Calculator/ViewControllerLevelTest.h"; sourceTree = "<group>"; };
-		B5C1909B19B997EE0018B82F /* ViewControllerLevelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerLevelTest.m; path = "Marks Calculator/ViewControllerLevelTest.m"; sourceTree = "<group>"; };
+		97FD190C19E96B180049D8DD /* Overview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Overview.h; sourceTree = "<group>"; };
+		97FD190D19E96B180049D8DD /* Overview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Overview.m; sourceTree = "<group>"; };
 		B5C1909D19B998540018B82F /* ViewControllerLTCT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLTCT.h; sourceTree = "<group>"; };
 		B5C1909E19B998540018B82F /* ViewControllerLTCT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerLTCT.m; sourceTree = "<group>"; };
-		B5C190A019B998840018B82F /* ViewControllerAA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAA.h; sourceTree = "<group>"; };
-		B5C190A119B998840018B82F /* ViewControllerAA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAA.m; sourceTree = "<group>"; };
-		B5C190A319B9992A0018B82F /* ViewControllerEOY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerEOY.h; sourceTree = "<group>"; };
-		B5C190A419B9992A0018B82F /* ViewControllerEOY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerEOY.m; sourceTree = "<group>"; };
-		B5C190A619B999740018B82F /* ViewControllerExamPick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerExamPick.h; sourceTree = "<group>"; };
-		B5C190A719B999740018B82F /* ViewControllerExamPick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerExamPick.m; sourceTree = "<group>"; };
-		B5C190A919B99A100018B82F /* ViewControllerSubjectPick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSubjectPick.h; sourceTree = "<group>"; };
-		B5C190AA19B99A100018B82F /* ViewControllerSubjectPick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSubjectPick.m; sourceTree = "<group>"; };
 		F903796419AB156300CACEF9 /* Marks Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marks Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F903796719AB156300CACEF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F903796919AB156300CACEF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,18 +116,16 @@
 		F903795B19AB156300CACEF9 = {
 			isa = PBXGroup;
 			children = (
+				97FD190C19E96B180049D8DD /* Overview.h */,
+				97FD190D19E96B180049D8DD /* Overview.m */,
 				971ADE7719DC4369003774CB /* ViewControllersem2.h */,
 				971ADE7819DC4369003774CB /* ViewControllersem2.m */,
 				97D9216619CFE5660036E862 /* ICON.png */,
 				97C43A5519CEA4180037062E /* ViewControllersem1.h */,
 				97C43A5619CEA4180037062E /* ViewControllersem1.m */,
-				970D5A4419CAB84A0013C983 /* ViewControllerLT.h */,
-				970D5A4519CAB84A0013C983 /* ViewControllerLT.m */,
 				0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */,
-				B5C1909A19B997EE0018B82F /* ViewControllerLevelTest.h */,
 				0F40FDA119C73EC40085C88C /* OverviewGraph.h */,
 				0F40FDA219C73EC40085C88C /* OverviewGraph.m */,
-				B5C1909B19B997EE0018B82F /* ViewControllerLevelTest.m */,
 				F903796D19AB156300CACEF9 /* Marks Calculator */,
 				F903798C19AB156300CACEF9 /* Marks CalculatorTests */,
 				F903796619AB156300CACEF9 /* Frameworks */,
@@ -184,14 +167,6 @@
 				97270F4319E95EFE00D44020 /* sem1res.m */,
 				9797BF5319BC0E4200099415 /* ViewControllerAboutus.h */,
 				9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */,
-				B5C190AA19B99A100018B82F /* ViewControllerSubjectPick.m */,
-				B5C190A919B99A100018B82F /* ViewControllerSubjectPick.h */,
-				B5C190A619B999740018B82F /* ViewControllerExamPick.h */,
-				B5C190A719B999740018B82F /* ViewControllerExamPick.m */,
-				B5C190A319B9992A0018B82F /* ViewControllerEOY.h */,
-				B5C190A419B9992A0018B82F /* ViewControllerEOY.m */,
-				B5C190A019B998840018B82F /* ViewControllerAA.h */,
-				B5C190A119B998840018B82F /* ViewControllerAA.m */,
 				B5C1909D19B998540018B82F /* ViewControllerLTCT.h */,
 				B5C1909E19B998540018B82F /* ViewControllerLTCT.m */,
 				F903797C19AB156300CACEF9 /* ViewController.h */,
@@ -286,7 +261,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F903795F19AB156300CACEF9 /* Build configuration list for PBXProject "Marks Calculator" */;
+			buildConfigurationList = F903795F19AB156300CACEF9 /* Build configuration list for PBXProject "Calculax" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -335,21 +310,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C190A519B9992A0018B82F /* ViewControllerEOY.m in Sources */,
-				B5C190AB19B99A100018B82F /* ViewControllerSubjectPick.m in Sources */,
 				971ADE7919DC4369003774CB /* ViewControllersem2.m in Sources */,
+				97FD190E19E96B180049D8DD /* Overview.m in Sources */,
 				F903797E19AB156300CACEF9 /* ViewController.m in Sources */,
 				97270F4419E95EFE00D44020 /* sem1res.m in Sources */,
 				F903797819AB156300CACEF9 /* AppDelegate.m in Sources */,
-				B5C1909C19B997EE0018B82F /* ViewControllerLevelTest.m in Sources */,
-				970D5A4619CAB84A0013C983 /* ViewControllerLT.m in Sources */,
 				97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */,
 				F903797419AB156300CACEF9 /* main.m in Sources */,
-				B5C190A819B999740018B82F /* ViewControllerExamPick.m in Sources */,
 				9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */,
 				0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */,
 				B5C1909F19B998540018B82F /* ViewControllerLTCT.m in Sources */,
-				B5C190A219B998840018B82F /* ViewControllerAA.m in Sources */,
 				0F40FDA319C73EC40085C88C /* OverviewGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,7 +519,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F903795F19AB156300CACEF9 /* Build configuration list for PBXProject "Marks Calculator" */ = {
+		F903795F19AB156300CACEF9 /* Build configuration list for PBXProject "Calculax" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F903799419AB156300CACEF9 /* Debug */,
