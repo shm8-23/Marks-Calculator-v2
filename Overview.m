@@ -22,6 +22,7 @@
     [_scroll setScrollEnabled:TRUE];
     [_scroll setContentSize:CGSizeMake(320, 1000)];
     
+    //LEVELTEST1
     
     //userdef
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -48,10 +49,10 @@
     float mtl = loadmtl.floatValue;
     float admt = loadadmt.floatValue;
     
-    //show
-    if ( math > 0 & science > 0 & english > 0 & ih > 0 & ih > 0 & mtl > 0 ){
+    
         
         //set values
+    
         [_math setText: [NSString stringWithFormat:@"%0.1f", math]];
         [_science setText:[NSString stringWithFormat:@"%0.1f" , science]];
         [_English setText: [NSString stringWithFormat:@"%0.1f", english]];
@@ -60,19 +61,40 @@
         [_ADMT setText:[NSString stringWithFormat:@"%0.1f", admt]];
         
         
-    }
-    //dontshow
-    else{
-        
-        //set invalids
-        
-        [_math setText:@"-"];
-        [_science setText:@"-"];
-        [_English setText:@"-"];
-        [_IH setText:@"-"];
-        [_MTL setText:@"-"];
-        [_ADMT setText:@"-"];
-    }
+    
+  
+    
+    //COMMON TEST
+    
+    //userdef
+    NSUserDefaults *defaultsct =[NSUserDefaults standardUserDefaults];
+    
+    //load
+    NSString *loadmathct = [defaultsct objectForKey:@"mathct"];
+    
+    NSString *loadissct = [defaultsct objectForKey:@"issct"];
+    NSString *loadenglishct = [defaultsct objectForKey:@"englishct"];
+    NSString *loadihct = [defaultsct objectForKey:@"ihct"];
+    NSString *loadadmtct = [ defaultsct objectForKey:@"admtct"];
+    NSString *loadmtlct = [defaultsct objectForKey:@"mtlct"];
+    
+    //float
+    float mathct = loadmathct.floatValue;
+    float issct = loadissct.floatValue;
+    float englishct = loadenglishct.floatValue;
+    float ihct = loadihct.floatValue;
+    float admtct = loadadmtct.floatValue;
+    float mtlct = loadmtlct.floatValue;
+    
+    
+    //set values
+    [_mathct setText: [NSString stringWithFormat:@"%0.1f", mathct]];
+    [_issct setText: [NSString stringWithFormat:@"%0.1f", issct]];
+    [_englishct setText: [NSString stringWithFormat:@"%0.1f", englishct]];
+    [_ihct setText: [NSString stringWithFormat:@"%0.1f", ihct]];
+    [_mtlct setText: [NSString stringWithFormat:@"%0.1f", mtlct]];
+    [_admtct setText: [NSString stringWithFormat:@"%0.1f", admtct]];
+    
     
     
     

@@ -13,7 +13,6 @@
 @property (strong, nonatomic) IBOutlet UIScrollView *scroll;
 
 //results for level test 1
-
 @property (strong, nonatomic) IBOutlet UILabel *math;
 @property (strong, nonatomic) IBOutlet UILabel *science;
 
@@ -21,5 +20,16 @@
 @property (strong, nonatomic) IBOutlet UILabel *IH;
 @property (strong, nonatomic) IBOutlet UILabel *MTL;
 @property (strong, nonatomic) IBOutlet UILabel *ADMT;
+
+
+//results for common test
+@property (strong, nonatomic) IBOutlet UILabel *mathct;
+@property (strong, nonatomic) IBOutlet UILabel *issct;
+@property (strong, nonatomic) IBOutlet UILabel *englishct;
+@property (strong, nonatomic) IBOutlet UILabel *ihct;
+@property (strong, nonatomic) IBOutlet UILabel *mtlct;
+@property (strong, nonatomic) IBOutlet UILabel *admtct;
+
+
 
 @end
