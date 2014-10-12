@@ -116,6 +116,7 @@
         [_MTL setText:@""];
         [_science setText:@""];
         [_IH setText:@""];
+        [_ADMT setText:@""];
         
         
         

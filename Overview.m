@@ -36,6 +36,7 @@
     NSString *loadih = [defaults objectForKey:@"ihlt1"];
     
     NSString *loadmtl = [defaults objectForKey:@"mtllt1"];
+    NSString *loadadmt = [defaults objectForKey:@"admtlt1"];
     
     
     //declare as float
@@ -45,6 +46,7 @@
     float english = loadenglish.floatValue;
     float ih = loadih.floatValue;
     float mtl = loadmtl.floatValue;
+    float admt = loadadmt.floatValue;
     
     //show
     if ( math > 0 & science > 0 & english > 0 & ih > 0 & ih > 0 & mtl > 0 ){
@@ -55,6 +57,7 @@
         [_English setText: [NSString stringWithFormat:@"%0.1f", english]];
         [_IH setText: [NSString stringWithFormat:@"%0.1f",ih]];
         [_MTL setText: [NSString stringWithFormat:@"%0.1f", mtl]];
+        [_ADMT setText:[NSString stringWithFormat:@"%0.1f", admt]];
         
         
     }
@@ -68,6 +71,7 @@
         [_English setText:@"-"];
         [_IH setText:@"-"];
         [_MTL setText:@"-"];
+        [_ADMT setText:@"-"];
     }
     
     

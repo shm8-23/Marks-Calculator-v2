@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="hYo-JC-AuS">
     <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
@@ -93,7 +94,7 @@
                                     <color key="titleShadowColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PAl-T0-xPG" kind="modal" id="xxq-CP-fPJ"/>
+                                    <segue destination="PAl-T0-xPG" kind="modal" modalTransitionStyle="crossDissolve" id="xxq-CP-fPJ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculax" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ycx-E0-s1i">
@@ -723,7 +724,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="7Cc-SY-GTr" kind="modal" modalTransitionStyle="crossDissolve" id="mvW-KJ-PjK"/>
+                                    <segue destination="7Cc-SY-GTr" kind="modal" modalTransitionStyle="flipHorizontal" id="mvW-KJ-PjK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0Tq-cK-AaK">
@@ -1165,6 +1166,20 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADMT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="miy-WN-pKX">
+                                        <rect key="frame" x="109" y="285" width="48" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mfz-nt-6JB">
+                                        <rect key="frame" x="175" y="285" width="42" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -1173,6 +1188,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1000"/>
                     <connections>
+                        <outlet property="ADMT" destination="mfz-nt-6JB" id="QIh-RM-Vys"/>
                         <outlet property="English" destination="FCn-8F-Ygv" id="Zci-yW-aEs"/>
                         <outlet property="IH" destination="KJU-Uq-Kkw" id="Evf-yk-aCF"/>
                         <outlet property="MTL" destination="ho7-o1-dLq" id="MG7-Sd-zmU"/>
@@ -1228,11 +1244,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="QFw-sP-BYa"/>
+        <segue reference="e7h-X0-aHD"/>
+        <segue reference="Psy-O6-OaH"/>
         <segue reference="K09-FB-Q1k"/>
-        <segue reference="1pV-Sp-Uha"/>
         <segue reference="AoF-cG-bSk"/>
         <segue reference="cw9-5d-EtP"/>
-        <segue reference="e7h-X0-aHD"/>
-        <segue reference="QFw-sP-BYa"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -20,5 +20,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *English;
 @property (strong, nonatomic) IBOutlet UILabel *IH;
 @property (strong, nonatomic) IBOutlet UILabel *MTL;
+@property (strong, nonatomic) IBOutlet UILabel *ADMT;
 
 @end
