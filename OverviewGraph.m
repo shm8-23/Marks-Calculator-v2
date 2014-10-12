@@ -48,9 +48,9 @@
     
     CGFloat components[] = {0.0, 0.0, 0.0, 0.500};
     
-    CGColorRef color = CGColorCreate(colorspace, components);
+    CGColorRef red = CGColorCreate(colorspace, components);
     
-    CGContextSetStrokeColorWithColor(context, color);
+    CGContextSetStrokeColorWithColor(context, red);
     
     CGContextMoveToPoint(context, 30, 300);
     
@@ -60,7 +60,7 @@
     
     CGColorSpaceRelease(colorspace);
 
-    CGColorRelease(color);
+    CGColorRelease(red);
     
 }
 

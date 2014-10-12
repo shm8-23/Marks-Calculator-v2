@@ -18,6 +18,7 @@
 		97A9C4F419D4585500AB554C /* FINALSPALSH.png in Resources */ = {isa = PBXBuildFile; fileRef = 97A9C4F319D4585500AB554C /* FINALSPALSH.png */; };
 		97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C43A5619CEA4180037062E /* ViewControllersem1.m */; };
 		97D9216719CFE5660036E862 /* ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 97D9216619CFE5660036E862 /* ICON.png */; };
+		97DE620E19EA3CBD00D62AF1 /* LevelTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DE620D19EA3CBD00D62AF1 /* LevelTest1.m */; };
 		97FD190E19E96B180049D8DD /* Overview.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FD190D19E96B180049D8DD /* Overview.m */; };
 		B5C1909F19B998540018B82F /* ViewControllerLTCT.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1909E19B998540018B82F /* ViewControllerLTCT.m */; };
 		F903796819AB156300CACEF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F903796719AB156300CACEF9 /* Foundation.framework */; };
@@ -63,6 +64,8 @@
 		97C43A5519CEA4180037062E /* ViewControllersem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem1.h; sourceTree = "<group>"; };
 		97C43A5619CEA4180037062E /* ViewControllersem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersem1.m; sourceTree = "<group>"; };
 		97D9216619CFE5660036E862 /* ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON.png; sourceTree = "<group>"; };
+		97DE620C19EA3CBD00D62AF1 /* LevelTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelTest1.h; sourceTree = "<group>"; };
+		97DE620D19EA3CBD00D62AF1 /* LevelTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelTest1.m; sourceTree = "<group>"; };
 		97FD190C19E96B180049D8DD /* Overview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Overview.h; sourceTree = "<group>"; };
 		97FD190D19E96B180049D8DD /* Overview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Overview.m; sourceTree = "<group>"; };
 		B5C1909D19B998540018B82F /* ViewControllerLTCT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerLTCT.h; sourceTree = "<group>"; };
@@ -113,9 +116,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97DE620B19EA3CAD00D62AF1 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				97DE620C19EA3CBD00D62AF1 /* LevelTest1.h */,
+				97DE620D19EA3CBD00D62AF1 /* LevelTest1.m */,
+			);
+			name = Recording;
+			sourceTree = "<group>";
+		};
 		F903795B19AB156300CACEF9 = {
 			isa = PBXGroup;
 			children = (
+				97DE620B19EA3CAD00D62AF1 /* Recording */,
 				97FD190C19E96B180049D8DD /* Overview.h */,
 				97FD190D19E96B180049D8DD /* Overview.m */,
 				971ADE7719DC4369003774CB /* ViewControllersem2.h */,
@@ -314,6 +327,7 @@
 				97FD190E19E96B180049D8DD /* Overview.m in Sources */,
 				F903797E19AB156300CACEF9 /* ViewController.m in Sources */,
 				97270F4419E95EFE00D44020 /* sem1res.m in Sources */,
+				97DE620E19EA3CBD00D62AF1 /* LevelTest1.m in Sources */,
 				F903797819AB156300CACEF9 /* AppDelegate.m in Sources */,
 				97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */,
 				F903797419AB156300CACEF9 /* main.m in Sources */,
