@@ -17,6 +17,7 @@
 		9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */; };
 		97A9C4F419D4585500AB554C /* FINALSPALSH.png in Resources */ = {isa = PBXBuildFile; fileRef = 97A9C4F319D4585500AB554C /* FINALSPALSH.png */; };
 		97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C43A5619CEA4180037062E /* ViewControllersem1.m */; };
+		97D3BA7419EC064F00150224 /* Leveltest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 97D3BA7319EC064F00150224 /* Leveltest2.m */; };
 		97D9216719CFE5660036E862 /* ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 97D9216619CFE5660036E862 /* ICON.png */; };
 		97DE620E19EA3CBD00D62AF1 /* LevelTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DE620D19EA3CBD00D62AF1 /* LevelTest1.m */; };
 		97E51CCA19EAAA38002D0F7C /* commontest.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E51CC919EAAA38002D0F7C /* commontest.m */; };
@@ -37,7 +38,6 @@
 		F903798919AB156300CACEF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F903796B19AB156300CACEF9 /* UIKit.framework */; };
 		F903799119AB156300CACEF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F903798F19AB156300CACEF9 /* InfoPlist.strings */; };
 		F903799319AB156300CACEF9 /* Marks_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F903799219AB156300CACEF9 /* Marks_CalculatorTests.m */; };
-		F97E341219EB508E007DEFF5 /* Leveltest2.m in Sources */ = {isa = PBXBuildFile; fileRef = F97E341119EB508E007DEFF5 /* Leveltest2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +66,8 @@
 		97A9C4F319D4585500AB554C /* FINALSPALSH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FINALSPALSH.png; sourceTree = "<group>"; };
 		97C43A5519CEA4180037062E /* ViewControllersem1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem1.h; sourceTree = "<group>"; };
 		97C43A5619CEA4180037062E /* ViewControllersem1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersem1.m; sourceTree = "<group>"; };
+		97D3BA7219EC064F00150224 /* Leveltest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leveltest2.h; sourceTree = "<group>"; };
+		97D3BA7319EC064F00150224 /* Leveltest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leveltest2.m; sourceTree = "<group>"; };
 		97D9216619CFE5660036E862 /* ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON.png; sourceTree = "<group>"; };
 		97DE620C19EA3CBD00D62AF1 /* LevelTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelTest1.h; sourceTree = "<group>"; };
 		97DE620D19EA3CBD00D62AF1 /* LevelTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelTest1.m; sourceTree = "<group>"; };
@@ -95,8 +97,6 @@
 		F903798E19AB156300CACEF9 /* Marks CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Marks CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		F903799019AB156300CACEF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F903799219AB156300CACEF9 /* Marks_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Marks_CalculatorTests.m; sourceTree = "<group>"; };
-		F97E341019EB508E007DEFF5 /* Leveltest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leveltest2.h; sourceTree = "<group>"; };
-		F97E341119EB508E007DEFF5 /* Leveltest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leveltest2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +131,8 @@
 				97DE620D19EA3CBD00D62AF1 /* LevelTest1.m */,
 				97E51CC819EAAA38002D0F7C /* commontest.h */,
 				97E51CC919EAAA38002D0F7C /* commontest.m */,
-				F97E341019EB508E007DEFF5 /* Leveltest2.h */,
-				F97E341119EB508E007DEFF5 /* Leveltest2.m */,
+				97D3BA7219EC064F00150224 /* Leveltest2.h */,
+				97D3BA7319EC064F00150224 /* Leveltest2.m */,
 			);
 			name = Recording;
 			sourceTree = "<group>";
@@ -342,7 +342,7 @@
 				F903797E19AB156300CACEF9 /* ViewController.m in Sources */,
 				97270F4419E95EFE00D44020 /* sem1res.m in Sources */,
 				97DE620E19EA3CBD00D62AF1 /* LevelTest1.m in Sources */,
-				F97E341219EB508E007DEFF5 /* Leveltest2.m in Sources */,
+				97D3BA7419EC064F00150224 /* Leveltest2.m in Sources */,
 				F903797819AB156300CACEF9 /* AppDelegate.m in Sources */,
 				97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */,
 				97E51CCA19EAAA38002D0F7C /* commontest.m in Sources */,

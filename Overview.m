@@ -20,7 +20,7 @@
     
     //scroller
     [_scroll setScrollEnabled:TRUE];
-    [_scroll setContentSize:CGSizeMake(320, 1000)];
+    [_scroll setContentSize:CGSizeMake(320, 1500)];
     
     //LEVELTEST1
     
@@ -96,10 +96,37 @@
     [_admtct setText: [NSString stringWithFormat:@"%0.1f", admtct]];
     
     
-    //Level Test 2
+    //LEVELTEST 2
     
     //userdef
     NSUserDefaults *defaultslt2 = [NSUserDefaults standardUserDefaults];
+    
+    //load
+    NSString *loadmathlt2 = [defaultslt2 objectForKey:@"mathlt2"];
+    NSString *loadsciencelt2 = [defaultslt2 objectForKey:@"sciencelt2"];
+    NSString *loadenglishlt2 = [defaultslt2 objectForKey:@"englishlt2"];
+    NSString *loadihlt2 = [defaultslt2 objectForKey:@"ihlt2"];
+    NSString *loadadmtlt2 = [defaultslt2 objectForKey:@"admtlt2"];
+    NSString *loadmtllt2 = [defaultslt2 objectForKey:@"mtllt2"];
+    
+    //float
+    float mathlt2 = loadmathlt2.floatValue;
+    float sciencelt2 = loadsciencelt2.floatValue;
+    float englishlt2 = loadenglishlt2.floatValue;
+    float ihlt2 = loadihlt2.floatValue;
+    float admtlt2 = loadadmtlt2.floatValue;
+    float mtllt2 = loadmtllt2.floatValue;
+    
+    //set
+    [_mathlt2 setText: [NSString stringWithFormat:@"%0.1f", mathlt2]];
+    [_sciencelt2 setText: [NSString stringWithFormat:@"%0.1f",sciencelt2]];
+    [_englishlt2 setText: [NSString stringWithFormat:@"%0.1f", englishlt2]];
+    [_ihlt2 setText: [NSString stringWithFormat:@"%0.1f", ihlt2]];
+    [_admtlt2 setText: [NSString stringWithFormat:@"%0.1f", admtlt2]];
+    [_mtllt2 setText: [NSString stringWithFormat:@"%0.1f", mtllt2]];
+     
+    
+    
     
     
     

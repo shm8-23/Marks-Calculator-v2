@@ -31,5 +31,15 @@
 @property (strong, nonatomic) IBOutlet UILabel *admtct;
 
 
+//results for level test 2
+@property (strong, nonatomic) IBOutlet UILabel *mathlt2;
+@property (strong, nonatomic) IBOutlet UILabel *sciencelt2;
+@property (strong, nonatomic) IBOutlet UILabel *englishlt2;
+@property (strong, nonatomic) IBOutlet UILabel *ihlt2;
+@property (strong, nonatomic) IBOutlet UILabel *mtllt2;
+@property (strong, nonatomic) IBOutlet UILabel *admtlt2;
+
+
+
 
 @end
