@@ -124,6 +124,35 @@
     [_ihlt2 setText: [NSString stringWithFormat:@"%0.1f", ihlt2]];
     [_admtlt2 setText: [NSString stringWithFormat:@"%0.1f", admtlt2]];
     [_mtllt2 setText: [NSString stringWithFormat:@"%0.1f", mtllt2]];
+    
+    //END OF YEARS
+    
+    NSUserDefaults *defaultseoy = [ NSUserDefaults standardUserDefaults];
+    
+    //load
+    
+    NSString *loadmatheoy = [ defaultseoy objectForKey:@"matheoy"];
+    NSString *loadscienceeoy = [defaultseoy objectForKey:@"scienceeoy"];
+    NSString *loadenglisheoy = [defaultseoy objectForKey:@"englisheoy"];
+    NSString *loadiheoy = [defaultseoy objectForKey:@"iheoy"];
+    NSString *loadmtleoy = [defaultseoy objectForKey:@"mtleoy"];
+    NSString *loadadmteoy = [defaultseoy objectForKey:@"admteoy"];
+    
+    //float
+    float matheoy = loadmatheoy.floatValue;
+    float scienceeoy = loadscienceeoy.floatValue;
+    float englisheoy = loadenglisheoy.floatValue;
+    float iheoy = loadiheoy.floatValue;
+    float mtleoy = loadmtleoy.floatValue;
+    float admteoy = loadadmteoy.floatValue;
+    
+    //set
+    [_matheoy setText:[NSString stringWithFormat:@"%0.1f", matheoy]];
+    [_scienceeoy setText:[NSString stringWithFormat:@"%0.1f", scienceeoy]];
+    [_englisheoy setText:[NSString stringWithFormat:@"%0.1f", englisheoy]];
+    [_iheoy setText:[NSString stringWithFormat:@"%0.1f", iheoy]];
+    [_mtleoy setText:[NSString stringWithFormat:@"%0.1f", mtleoy]];
+    [_admteoy setText:[NSString stringWithFormat:@"%0.1f", admteoy]];
      
     
     

@@ -40,6 +40,15 @@
 @property (strong, nonatomic) IBOutlet UILabel *admtlt2;
 
 
+//results for EOYS
+@property (strong, nonatomic) IBOutlet UILabel *matheoy;
+@property (strong, nonatomic) IBOutlet UILabel *scienceeoy;
+@property (strong, nonatomic) IBOutlet UILabel *englisheoy;
+@property (strong, nonatomic) IBOutlet UILabel *iheoy;
+@property (strong, nonatomic) IBOutlet UILabel *mtleoy;
+@property (strong, nonatomic) IBOutlet UILabel *admteoy;
+
+
 
 
 @end

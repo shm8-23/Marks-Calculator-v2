@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F40FDA519C743A60085C88C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F40FDA419C743A60085C88C /* CoreData.framework */; };
 		0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */; };
+		9701321C19ED0D8E005EE75D /* EOYs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9701321B19ED0D8E005EE75D /* EOYs.m */; };
 		971ADE7919DC4369003774CB /* ViewControllersem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 971ADE7819DC4369003774CB /* ViewControllersem2.m */; };
 		97270F4419E95EFE00D44020 /* sem1res.m in Sources */ = {isa = PBXBuildFile; fileRef = 97270F4319E95EFE00D44020 /* sem1res.m */; };
 		97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C7F19BADFFB00A27AA7 /* Html-source-code.png */; };
@@ -53,6 +54,8 @@
 /* Begin PBXFileReference section */
 		0F40FDA419C743A60085C88C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0F40FDA719C745050085C88C /* MarksCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarksCalculator.xcdatamodel; sourceTree = "<group>"; };
+		9701321A19ED0D8E005EE75D /* EOYs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOYs.h; sourceTree = "<group>"; };
+		9701321B19ED0D8E005EE75D /* EOYs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOYs.m; sourceTree = "<group>"; };
 		971ADE7719DC4369003774CB /* ViewControllersem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem2.h; sourceTree = "<group>"; };
 		971ADE7819DC4369003774CB /* ViewControllersem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersem2.m; sourceTree = "<group>"; };
 		97270F4219E95EFE00D44020 /* sem1res.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sem1res.h; sourceTree = "<group>"; };
@@ -133,6 +136,8 @@
 				97E51CC919EAAA38002D0F7C /* commontest.m */,
 				97D3BA7219EC064F00150224 /* Leveltest2.h */,
 				97D3BA7319EC064F00150224 /* Leveltest2.m */,
+				9701321A19ED0D8E005EE75D /* EOYs.h */,
+				9701321B19ED0D8E005EE75D /* EOYs.m */,
 			);
 			name = Recording;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9701321C19ED0D8E005EE75D /* EOYs.m in Sources */,
 				971ADE7919DC4369003774CB /* ViewControllersem2.m in Sources */,
 				9777677119ED018F0013D467 /* sem2res.m in Sources */,
 				97FD190E19E96B180049D8DD /* Overview.m in Sources */,
