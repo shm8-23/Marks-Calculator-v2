@@ -149,7 +149,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="6Iz-Kp-tQC" kind="modal" modalTransitionStyle="crossDissolve" id="kTX-YY-13b"/>
+                                    <segue destination="6Iz-Kp-tQC" kind="push" id="kTX-YY-13b"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EJh-EM-5h9">
@@ -161,7 +161,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hYo-JC-AuS" kind="modal" id="Aba-oG-w1E"/>
+                                    <action selector="back1:" destination="nEU-rI-3BZ" eventType="touchUpInside" id="fbG-Oz-Z0q"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -198,7 +198,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nEU-rI-3BZ" kind="modal" modalTransitionStyle="crossDissolve" id="QFw-sP-BYa"/>
+                                    <action selector="back2:" destination="6Iz-Kp-tQC" eventType="touchUpInside" id="ASl-jQ-4eu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chief of Moral Motivation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="M9C-nH-MdT">
@@ -299,6 +299,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dsi-2L-XKM"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
@@ -309,10 +310,10 @@
             </objects>
             <point key="canvasLocation" x="-449" y="-1661"/>
         </scene>
-        <!--View Controller-->
+        <!--Mainrecording-->
         <scene sceneID="mOb-zD-120">
             <objects>
-                <viewController id="2lG-Ih-GQh" sceneMemberID="viewController">
+                <viewController id="2lG-Ih-GQh" customClass="mainrecording" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G38-TH-PHJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -370,7 +371,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hYo-JC-AuS" kind="modal" modalTransitionStyle="crossDissolve" id="JTd-6E-37R"/>
+                                    <action selector="back:" destination="2lG-Ih-GQh" eventType="touchUpInside" id="qOs-CI-sjZ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recording" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kXh-9c-Vqp">
@@ -383,6 +384,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Kae-zA-OBW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GDU-e8-JGM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -459,7 +461,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2lG-Ih-GQh" kind="modal" modalTransitionStyle="crossDissolve" id="hLq-WS-NkS"/>
+                                    <action selector="back:" destination="NsP-aI-T7t" eventType="touchUpInside" id="xCk-UD-5JC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pk3-T9-q6k">
@@ -542,7 +544,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2lG-Ih-GQh" kind="modal" modalTransitionStyle="crossDissolve" id="tJB-V2-Tua"/>
+                                    <action selector="Back:" destination="4Ds-ct-eMw" eventType="touchUpInside" id="4KR-rm-RIx"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ISS" textAlignment="center" minimumFontSize="17" id="drD-YO-ika">
@@ -673,7 +675,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2lG-Ih-GQh" kind="modal" modalTransitionStyle="crossDissolve" id="gUq-QN-mTi"/>
+                                    <action selector="back:" destination="6rz-UL-xmC" eventType="touchUpInside" id="BnO-Dh-HCu"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="English" textAlignment="center" minimumFontSize="17" id="Ree-g2-aBZ">
@@ -811,7 +813,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2lG-Ih-GQh" kind="modal" modalTransitionStyle="crossDissolve" id="e7h-X0-aHD"/>
+                                    <action selector="back:" destination="U3p-iB-evd" eventType="touchUpInside" id="0he-B0-lyf"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Math" textAlignment="center" minimumFontSize="17" id="u5Y-NJ-Gzp">
@@ -1008,12 +1010,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wqU-UA-98U" kind="modal" modalTransitionStyle="flipHorizontal" id="Psy-O6-OaH"/>
+                                    <action selector="back:" destination="7Cc-SY-GTr" eventType="touchUpInside" id="DY6-CY-E4y"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Bll-Z5-mMa"/>
                     <connections>
                         <outlet property="Display" destination="jsE-HU-Hfb" id="gSb-Yh-5kO"/>
                         <outlet property="Score" destination="Rio-IK-bHl" id="6h6-Nz-gzK"/>
@@ -1028,6 +1031,7 @@
         <scene sceneID="IgV-A0-jqZ">
             <objects>
                 <navigationController navigationBarHidden="YES" id="ymX-AZ-ykv" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ac5-4Q-bLe"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OHz-k0-7jb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1043,10 +1047,10 @@
             </objects>
             <point key="canvasLocation" x="-1291" y="448"/>
         </scene>
-        <!--View Controller-->
+        <!--Quickcalmenu-->
         <scene sceneID="Ml6-DC-0FG">
             <objects>
-                <viewController id="wqU-UA-98U" sceneMemberID="viewController">
+                <viewController id="wqU-UA-98U" customClass="quickcalmenu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GxK-Aq-loa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1059,7 +1063,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="7Cc-SY-GTr" kind="modal" modalTransitionStyle="flipHorizontal" id="mvW-KJ-PjK"/>
+                                    <segue destination="7Cc-SY-GTr" kind="modal" modalTransitionStyle="crossDissolve" id="mvW-KJ-PjK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0Tq-cK-AaK">
@@ -1082,7 +1086,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hYo-JC-AuS" kind="modal" modalTransitionStyle="crossDissolve" id="K09-FB-Q1k"/>
+                                    <action selector="back:" destination="wqU-UA-98U" eventType="touchUpInside" id="OwX-aj-Hw7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick Calculation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lof-LC-6jj">
@@ -1101,10 +1105,10 @@
             </objects>
             <point key="canvasLocation" x="-869" y="448"/>
         </scene>
-        <!--View Controller-->
+        <!--Overallmenu-->
         <scene sceneID="jKp-4Y-wPy">
             <objects>
-                <viewController id="wQf-vb-SgB" sceneMemberID="viewController">
+                <viewController id="wQf-vb-SgB" customClass="overallmenu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fdf-Lm-JWp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1125,7 +1129,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wqU-UA-98U" kind="modal" modalTransitionStyle="crossDissolve" id="1pV-Sp-Uha"/>
+                                    <action selector="back:" destination="wQf-vb-SgB" eventType="touchUpInside" id="WLq-8h-vnQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bWx-x8-Bbb">
@@ -1153,6 +1157,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="6LS-Ez-f7S"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bzc-0Y-ivn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1182,7 +1187,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wQf-vb-SgB" kind="modal" modalTransitionStyle="crossDissolve" id="AoF-cG-bSk"/>
+                                    <action selector="back:" destination="Sc8-8Z-2Fs" eventType="touchUpInside" id="zXm-hS-Qj7"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LT1" textAlignment="center" minimumFontSize="17" id="sVe-jd-338">
@@ -1262,7 +1267,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Sc8-8Z-2Fs" kind="modal" modalTransitionStyle="flipHorizontal" id="lT2-b2-XXr"/>
+                                    <action selector="back:" destination="Oqe-Eg-I6X" eventType="touchUpInside" id="d3g-nN-lLB"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Got" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="se2-dE-9Hf">
@@ -1363,7 +1368,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="wQf-vb-SgB" kind="modal" modalTransitionStyle="crossDissolve" id="4EW-ym-FvY"/>
+                                    <action selector="back:" destination="4Xv-Lf-Hij" eventType="touchUpInside" id="Hi2-J8-CmM"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ujf-Ov-c5q">
@@ -1402,7 +1407,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4Xv-Lf-Hij" kind="modal" modalTransitionStyle="flipHorizontal" id="Rvv-k0-w0H"/>
+                                    <action selector="back:" destination="Tu6-K0-szY" eventType="touchUpInside" id="bAI-t6-4DM"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Got" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Kkr-xI-ejn">
@@ -1456,7 +1461,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hYo-JC-AuS" kind="modal" modalTransitionStyle="crossDissolve" id="xRr-Rj-K1M"/>
+                                    <action selector="back:" destination="PAl-T0-xPG" eventType="touchUpInside" id="9PC-AW-fMn"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uca-78-cGU">
@@ -1839,6 +1844,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="VMb-Hg-iwp"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1500"/>
                     <connections>
@@ -1884,13 +1890,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="1pV-Sp-Uha"/>
-        <segue reference="4EW-ym-FvY"/>
-        <segue reference="Rvv-k0-w0H"/>
-        <segue reference="lT2-b2-XXr"/>
-        <segue reference="xRr-Rj-K1M"/>
-        <segue reference="QFw-sP-BYa"/>
-        <segue reference="hLq-WS-NkS"/>
-    </inferredMetricsTieBreakers>
 </document>

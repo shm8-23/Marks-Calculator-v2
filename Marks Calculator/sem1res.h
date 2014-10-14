@@ -15,4 +15,5 @@
 @property (strong, nonatomic) IBOutlet UILabel *warning;
 @property (strong, nonatomic) IBOutlet UILabel *YG;
 @property (strong, nonatomic) IBOutlet UILabel *invalid;
+- (IBAction)back:(id)sender;
 @end

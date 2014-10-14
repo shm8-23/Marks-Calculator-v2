@@ -18,5 +18,6 @@
 - (IBAction)calculate:(id)sender;
 
 @property (strong, nonatomic) IBOutlet UILabel *output;
+- (IBAction)back:(id)sender;
 
 @end

@@ -17,5 +17,6 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *Display;
 - (IBAction)cal:(id)sender;
+- (IBAction)back:(id)sender;
 
 @end

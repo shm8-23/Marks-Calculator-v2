@@ -10,10 +10,13 @@
 		0F40FDA519C743A60085C88C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F40FDA419C743A60085C88C /* CoreData.framework */; };
 		0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */; };
 		9701321C19ED0D8E005EE75D /* EOYs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9701321B19ED0D8E005EE75D /* EOYs.m */; };
+		970AAC7319ED5DB7005C6D1E /* quickcalmenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 970AAC7219ED5DB7005C6D1E /* quickcalmenu.m */; };
+		970AAC7619ED5E17005C6D1E /* overallmenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 970AAC7519ED5E17005C6D1E /* overallmenu.m */; };
 		971ADE7919DC4369003774CB /* ViewControllersem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 971ADE7819DC4369003774CB /* ViewControllersem2.m */; };
 		97270F4419E95EFE00D44020 /* sem1res.m in Sources */ = {isa = PBXBuildFile; fileRef = 97270F4319E95EFE00D44020 /* sem1res.m */; };
 		97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C7F19BADFFB00A27AA7 /* Html-source-code.png */; };
 		97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8119BADFFB00A27AA7 /* Score Calculator.png */; };
+		97644F3B19ED5B470082F2A3 /* mainrecording.m in Sources */ = {isa = PBXBuildFile; fileRef = 97644F3A19ED5B470082F2A3 /* mainrecording.m */; };
 		9777677119ED018F0013D467 /* sem2res.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777677019ED018F0013D467 /* sem2res.m */; };
 		9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */; };
 		97A9C4F419D4585500AB554C /* FINALSPALSH.png in Resources */ = {isa = PBXBuildFile; fileRef = 97A9C4F319D4585500AB554C /* FINALSPALSH.png */; };
@@ -56,12 +59,18 @@
 		0F40FDA719C745050085C88C /* MarksCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarksCalculator.xcdatamodel; sourceTree = "<group>"; };
 		9701321A19ED0D8E005EE75D /* EOYs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOYs.h; sourceTree = "<group>"; };
 		9701321B19ED0D8E005EE75D /* EOYs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOYs.m; sourceTree = "<group>"; };
+		970AAC7119ED5DB7005C6D1E /* quickcalmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quickcalmenu.h; sourceTree = "<group>"; };
+		970AAC7219ED5DB7005C6D1E /* quickcalmenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quickcalmenu.m; sourceTree = "<group>"; };
+		970AAC7419ED5E17005C6D1E /* overallmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = overallmenu.h; sourceTree = "<group>"; };
+		970AAC7519ED5E17005C6D1E /* overallmenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = overallmenu.m; sourceTree = "<group>"; };
 		971ADE7719DC4369003774CB /* ViewControllersem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem2.h; sourceTree = "<group>"; };
 		971ADE7819DC4369003774CB /* ViewControllersem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersem2.m; sourceTree = "<group>"; };
 		97270F4219E95EFE00D44020 /* sem1res.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sem1res.h; sourceTree = "<group>"; };
 		97270F4319E95EFE00D44020 /* sem1res.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sem1res.m; sourceTree = "<group>"; };
 		97304C7F19BADFFB00A27AA7 /* Html-source-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Html-source-code.png"; sourceTree = "<group>"; };
 		97304C8119BADFFB00A27AA7 /* Score Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score Calculator.png"; sourceTree = "<group>"; };
+		97644F3919ED5B470082F2A3 /* mainrecording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainrecording.h; sourceTree = "<group>"; };
+		97644F3A19ED5B470082F2A3 /* mainrecording.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainrecording.m; sourceTree = "<group>"; };
 		9777676F19ED018F0013D467 /* sem2res.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sem2res.h; sourceTree = "<group>"; };
 		9777677019ED018F0013D467 /* sem2res.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sem2res.m; sourceTree = "<group>"; };
 		9797BF5319BC0E4200099415 /* ViewControllerAboutus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAboutus.h; sourceTree = "<group>"; };
@@ -138,6 +147,8 @@
 				97D3BA7319EC064F00150224 /* Leveltest2.m */,
 				9701321A19ED0D8E005EE75D /* EOYs.h */,
 				9701321B19ED0D8E005EE75D /* EOYs.m */,
+				97644F3919ED5B470082F2A3 /* mainrecording.h */,
+				97644F3A19ED5B470082F2A3 /* mainrecording.m */,
 			);
 			name = Recording;
 			sourceTree = "<group>";
@@ -145,6 +156,10 @@
 		F903795B19AB156300CACEF9 = {
 			isa = PBXGroup;
 			children = (
+				970AAC7419ED5E17005C6D1E /* overallmenu.h */,
+				970AAC7519ED5E17005C6D1E /* overallmenu.m */,
+				970AAC7119ED5DB7005C6D1E /* quickcalmenu.h */,
+				970AAC7219ED5DB7005C6D1E /* quickcalmenu.m */,
 				97E51CCB19EAB82B002D0F7C /* Start logo.png */,
 				97DE620B19EA3CAD00D62AF1 /* Recording */,
 				97FD190C19E96B180049D8DD /* Overview.h */,
@@ -349,13 +364,16 @@
 				F903797E19AB156300CACEF9 /* ViewController.m in Sources */,
 				97270F4419E95EFE00D44020 /* sem1res.m in Sources */,
 				97DE620E19EA3CBD00D62AF1 /* LevelTest1.m in Sources */,
+				970AAC7319ED5DB7005C6D1E /* quickcalmenu.m in Sources */,
 				97D3BA7419EC064F00150224 /* Leveltest2.m in Sources */,
 				F903797819AB156300CACEF9 /* AppDelegate.m in Sources */,
 				97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */,
 				97E51CCA19EAAA38002D0F7C /* commontest.m in Sources */,
 				F903797419AB156300CACEF9 /* main.m in Sources */,
+				97644F3B19ED5B470082F2A3 /* mainrecording.m in Sources */,
 				9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */,
 				0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */,
+				970AAC7619ED5E17005C6D1E /* overallmenu.m in Sources */,
 				B5C1909F19B998540018B82F /* ViewControllerLTCT.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

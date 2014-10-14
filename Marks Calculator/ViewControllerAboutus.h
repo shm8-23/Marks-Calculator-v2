@@ -11,5 +11,8 @@
 @interface ViewControllerAboutus : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *dev;
 @property (strong, nonatomic) IBOutlet UIImageView *dev2;
+- (IBAction)back1:(id)sender;
+
+- (IBAction)back2:(id)sender;
 
 @end

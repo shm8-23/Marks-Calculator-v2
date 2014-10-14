@@ -29,5 +29,10 @@
 @property (strong, nonatomic) IBOutlet UILabel *good;
 @property (strong, nonatomic) IBOutlet UILabel *bad;
 
+//record button
 - (IBAction)Rec:(id)sender;
+
+//back button
+- (IBAction)back:(id)sender;
+
 @end

@@ -49,6 +49,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *admteoy;
 
 
+- (IBAction)back:(id)sender;
 
 
 @end

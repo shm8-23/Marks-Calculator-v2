@@ -33,5 +33,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *bad;
 @property (strong, nonatomic) IBOutlet UILabel *good;
 
+- (IBAction)back:(id)sender;
 
 @end

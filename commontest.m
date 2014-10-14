@@ -115,4 +115,8 @@
 - (IBAction)ADMT:(id)sender {
     [sender resignFirstResponder];
 }
+
+- (IBAction)Back:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

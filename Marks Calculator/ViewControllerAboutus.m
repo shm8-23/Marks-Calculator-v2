@@ -84,4 +84,12 @@
 
 
 
+
+- (IBAction)back1:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)back2:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

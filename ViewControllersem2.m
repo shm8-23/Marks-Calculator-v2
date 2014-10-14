@@ -43,6 +43,11 @@
 - (IBAction)EOYb:(id)sender {
     [sender resignFirstResponder];
 }
+
+- (IBAction)back:(id)sender {
+       [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 - (IBAction)cal:(id)sender {
     float lt = [_LT.text floatValue];
     float eoy = [_eoys.text floatValue];

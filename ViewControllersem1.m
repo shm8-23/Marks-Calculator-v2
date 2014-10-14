@@ -67,4 +67,7 @@
     [save synchronize];
     
 }
+- (IBAction)back:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end
