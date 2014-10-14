@@ -51,27 +51,21 @@
     float d = a + b;
     float c = (d / 50) * 100;
     
-    if (lt > 100 ) {
-        [_red setText:@"Invalid Value"];
-        [_out setText:@" "];
-    }
-    else if (eoy > 100) {
-        [_red setText:@" Invalid Value"];
-        [_out setText:@" "];
+    //set invisible score
+    [_out setText:[NSString stringWithFormat:@"%0.1f",c]];
     
-    }
-    else if ( c < 50){
-        [_red setText:@" You Failed! "];
-         [_out setText: [NSString stringWithFormat:@"%0.1f", c]];
-    }
-    
-    else  {
-        [_red setText:@" You Passed! "];
-    
-    [_out setText: [NSString stringWithFormat:@"%0.1f", c]];
-        
-    }
+    //save
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *sem2 = _out.text;
    
+    [defaults setObject:sem2 forKey:@"sem2marks"];
+    
+    [defaults synchronize];
+    
+    
+    
 }
+
+    
 
 @end

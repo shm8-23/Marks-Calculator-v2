@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F40FDA319C73EC40085C88C /* OverviewGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA219C73EC40085C88C /* OverviewGraph.m */; };
 		0F40FDA519C743A60085C88C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F40FDA419C743A60085C88C /* CoreData.framework */; };
 		0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */; };
 		971ADE7919DC4369003774CB /* ViewControllersem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 971ADE7819DC4369003774CB /* ViewControllersem2.m */; };
 		97270F4419E95EFE00D44020 /* sem1res.m in Sources */ = {isa = PBXBuildFile; fileRef = 97270F4319E95EFE00D44020 /* sem1res.m */; };
 		97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C7F19BADFFB00A27AA7 /* Html-source-code.png */; };
 		97304C8419BADFFB00A27AA7 /* Score Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C8119BADFFB00A27AA7 /* Score Calculator.png */; };
+		9777677119ED018F0013D467 /* sem2res.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777677019ED018F0013D467 /* sem2res.m */; };
 		9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */ = {isa = PBXBuildFile; fileRef = 9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */; };
 		97A9C4F419D4585500AB554C /* FINALSPALSH.png in Resources */ = {isa = PBXBuildFile; fileRef = 97A9C4F319D4585500AB554C /* FINALSPALSH.png */; };
 		97C43A5719CEA4180037062E /* ViewControllersem1.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C43A5619CEA4180037062E /* ViewControllersem1.m */; };
@@ -51,8 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F40FDA119C73EC40085C88C /* OverviewGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverviewGraph.h; sourceTree = "<group>"; };
-		0F40FDA219C73EC40085C88C /* OverviewGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverviewGraph.m; sourceTree = "<group>"; };
 		0F40FDA419C743A60085C88C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0F40FDA719C745050085C88C /* MarksCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarksCalculator.xcdatamodel; sourceTree = "<group>"; };
 		971ADE7719DC4369003774CB /* ViewControllersem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem2.h; sourceTree = "<group>"; };
@@ -61,6 +59,8 @@
 		97270F4319E95EFE00D44020 /* sem1res.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sem1res.m; sourceTree = "<group>"; };
 		97304C7F19BADFFB00A27AA7 /* Html-source-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Html-source-code.png"; sourceTree = "<group>"; };
 		97304C8119BADFFB00A27AA7 /* Score Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Score Calculator.png"; sourceTree = "<group>"; };
+		9777676F19ED018F0013D467 /* sem2res.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sem2res.h; sourceTree = "<group>"; };
+		9777677019ED018F0013D467 /* sem2res.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sem2res.m; sourceTree = "<group>"; };
 		9797BF5319BC0E4200099415 /* ViewControllerAboutus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerAboutus.h; sourceTree = "<group>"; };
 		9797BF5419BC0E4200099415 /* ViewControllerAboutus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAboutus.m; sourceTree = "<group>"; };
 		97A9C4F319D4585500AB554C /* FINALSPALSH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FINALSPALSH.png; sourceTree = "<group>"; };
@@ -150,8 +150,6 @@
 				97C43A5519CEA4180037062E /* ViewControllersem1.h */,
 				97C43A5619CEA4180037062E /* ViewControllersem1.m */,
 				0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */,
-				0F40FDA119C73EC40085C88C /* OverviewGraph.h */,
-				0F40FDA219C73EC40085C88C /* OverviewGraph.m */,
 				F903796D19AB156300CACEF9 /* Marks Calculator */,
 				F903798C19AB156300CACEF9 /* Marks CalculatorTests */,
 				F903796619AB156300CACEF9 /* Frameworks */,
@@ -199,6 +197,8 @@
 				F903797D19AB156300CACEF9 /* ViewController.m */,
 				F903797F19AB156300CACEF9 /* Images.xcassets */,
 				F903796E19AB156300CACEF9 /* Supporting Files */,
+				9777676F19ED018F0013D467 /* sem2res.h */,
+				9777677019ED018F0013D467 /* sem2res.m */,
 			);
 			path = "Marks Calculator";
 			sourceTree = "<group>";
@@ -338,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				971ADE7919DC4369003774CB /* ViewControllersem2.m in Sources */,
+				9777677119ED018F0013D467 /* sem2res.m in Sources */,
 				97FD190E19E96B180049D8DD /* Overview.m in Sources */,
 				F903797E19AB156300CACEF9 /* ViewController.m in Sources */,
 				97270F4419E95EFE00D44020 /* sem1res.m in Sources */,
@@ -350,7 +351,6 @@
 				9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */,
 				0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */,
 				B5C1909F19B998540018B82F /* ViewControllerLTCT.m in Sources */,
-				0F40FDA319C73EC40085C88C /* OverviewGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
