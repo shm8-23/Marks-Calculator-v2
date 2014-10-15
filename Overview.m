@@ -20,7 +20,9 @@
     
     //scroller
     [_scroll setScrollEnabled:TRUE];
-    [_scroll setContentSize:CGSizeMake(320, 1500)];
+    [_scroll setContentSize:CGSizeMake(320, 1900)];
+    
+    
     
     //LEVELTEST1
     
@@ -155,6 +157,55 @@
     [_admteoy setText:[NSString stringWithFormat:@"%0.1f", admteoy]];
      
     
+    //FIRST COMBINED
+    
+    //math
+    float mathperlt1 = ( math / 100 ) * 10;
+    float mathperct = ( mathct / 100 ) * 20;
+    float firstcombinedmath = mathperct + mathperlt1;
+    float mathfirstcombinedper = (firstcombinedmath / 30) * 100;
+    
+    //science
+    float sciencelt1 = ( science / 100 ) * 10;
+    float sciencect = ( issct / 100) * 20;
+    float scienceper =  sciencelt1 + sciencect;
+    float sciencefirstcombined = ( scienceper / 30 ) * 100;
+    
+    
+    //english
+    float englishlt1 = (english / 100 ) * 10;
+    float englishperct = ( englishct / 100) * 20;
+    float englishfirst = englishlt1 + englishperct;
+    float englishfirstcombined = ( englishfirst / 30) * 100;
+    
+    //ih
+    float ihlt1 = (ih / 100) * 10;
+    float ihctper = (ihct / 100) * 20;
+    float ihtotalsem1 = ihlt1 + ihctper;
+    float ihfirstcombined = (ihtotalsem1 / 30) * 100;
+    
+    //mtl
+    float mtllt1 = (mtl / 100) * 10;
+    float mtlctper = (mtlct / 100) * 20;
+    float mtltotalper = mtllt1 + mtlctper;
+    float mtlfirstcombined = (mtltotalper / 30) * 100;
+    
+    //admt
+    float admtlt1 = (admt / 100) * 10;
+    float admtctper = (admtct / 100) * 20;
+    float admttotalper = admtlt1 + admtctper;
+    float admtfirstcombined = (admttotalper / 30) * 100;
+    //setTexts
+    
+    [_mathfirst setText:[NSString stringWithFormat:@"%0.1f",mathfirstcombinedper]];
+    [_sciencefirst setText:[NSString stringWithFormat:@"%0.1f", sciencefirstcombined]];
+    [_englishfirst setText:[NSString stringWithFormat:@"%0.1f", englishfirstcombined]];
+    [_ihfirst setText:[NSString stringWithFormat:@"%0.1f", ihfirstcombined]];
+    [_mtlfirst setText:[NSString stringWithFormat:@"%0.1f", mtlfirstcombined]];
+    [_admtfirst setText:[NSString stringWithFormat:@"%0.1f", admtfirstcombined]];
+    
+    
+    //OVERALLs
     
     
     

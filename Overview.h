@@ -48,8 +48,21 @@
 @property (strong, nonatomic) IBOutlet UILabel *mtleoy;
 @property (strong, nonatomic) IBOutlet UILabel *admteoy;
 
-
+//back
 - (IBAction)back:(id)sender;
+
+
+//first combined
+@property (strong, nonatomic) IBOutlet UILabel *mathfirst;
+@property (strong, nonatomic) IBOutlet UILabel *sciencefirst;
+@property (strong, nonatomic) IBOutlet UILabel *englishfirst;
+@property (strong, nonatomic) IBOutlet UILabel *ihfirst;
+@property (strong, nonatomic) IBOutlet UILabel *mtlfirst;
+@property (strong, nonatomic) IBOutlet UILabel *admtfirst;
+
+
+
+
 
 
 @end
