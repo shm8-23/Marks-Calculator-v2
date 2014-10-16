@@ -17,7 +17,34 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //NUMBER TOOLBAR DONE
+    UIToolbar* numberToolbar = [[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, 320, 50)];
+    numberToolbar.barStyle = UIBarStyleDefault;
+    numberToolbar.items = [NSArray arrayWithObjects:
+                           
+                           [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil],
+                           [[UIBarButtonItem alloc]initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(doneWithNumberPad)],
+                           nil];
+    [numberToolbar sizeToFit];
+    _math.inputAccessoryView = numberToolbar;
+    _english.inputAccessoryView = numberToolbar;
+    _mtl.inputAccessoryView = numberToolbar;
+    _science.inputAccessoryView = numberToolbar;
+    _ih.inputAccessoryView = numberToolbar;
+    _admt.inputAccessoryView = numberToolbar;
 }
+
+-(void) doneWithNumberPad {
+    [_math resignFirstResponder];
+    [_english resignFirstResponder];
+    [_mtl resignFirstResponder];
+    [_science resignFirstResponder];
+    [_ih resignFirstResponder];
+    [_admt resignFirstResponder];
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

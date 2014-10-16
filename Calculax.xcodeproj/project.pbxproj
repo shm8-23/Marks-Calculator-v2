@@ -12,6 +12,7 @@
 		9701321C19ED0D8E005EE75D /* EOYs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9701321B19ED0D8E005EE75D /* EOYs.m */; };
 		970AAC7319ED5DB7005C6D1E /* quickcalmenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 970AAC7219ED5DB7005C6D1E /* quickcalmenu.m */; };
 		970AAC7619ED5E17005C6D1E /* overallmenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 970AAC7519ED5E17005C6D1E /* overallmenu.m */; };
+		9714E05019EF4C200087DE24 /* graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 9714E04F19EF4C200087DE24 /* graph.m */; };
 		971ADE7919DC4369003774CB /* ViewControllersem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 971ADE7819DC4369003774CB /* ViewControllersem2.m */; };
 		97270F4419E95EFE00D44020 /* sem1res.m in Sources */ = {isa = PBXBuildFile; fileRef = 97270F4319E95EFE00D44020 /* sem1res.m */; };
 		97304C8219BADFFB00A27AA7 /* Html-source-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 97304C7F19BADFFB00A27AA7 /* Html-source-code.png */; };
@@ -63,6 +64,8 @@
 		970AAC7219ED5DB7005C6D1E /* quickcalmenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quickcalmenu.m; sourceTree = "<group>"; };
 		970AAC7419ED5E17005C6D1E /* overallmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = overallmenu.h; sourceTree = "<group>"; };
 		970AAC7519ED5E17005C6D1E /* overallmenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = overallmenu.m; sourceTree = "<group>"; };
+		9714E04E19EF4C200087DE24 /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graph.h; sourceTree = "<group>"; };
+		9714E04F19EF4C200087DE24 /* graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = graph.m; sourceTree = "<group>"; };
 		971ADE7719DC4369003774CB /* ViewControllersem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersem2.h; sourceTree = "<group>"; };
 		971ADE7819DC4369003774CB /* ViewControllersem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersem2.m; sourceTree = "<group>"; };
 		97270F4219E95EFE00D44020 /* sem1res.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sem1res.h; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 		F903795B19AB156300CACEF9 = {
 			isa = PBXGroup;
 			children = (
+				9714E04E19EF4C200087DE24 /* graph.h */,
+				9714E04F19EF4C200087DE24 /* graph.m */,
 				970AAC7419ED5E17005C6D1E /* overallmenu.h */,
 				970AAC7519ED5E17005C6D1E /* overallmenu.m */,
 				970AAC7119ED5DB7005C6D1E /* quickcalmenu.h */,
@@ -371,6 +376,7 @@
 				97E51CCA19EAAA38002D0F7C /* commontest.m in Sources */,
 				F903797419AB156300CACEF9 /* main.m in Sources */,
 				97644F3B19ED5B470082F2A3 /* mainrecording.m in Sources */,
+				9714E05019EF4C200087DE24 /* graph.m in Sources */,
 				9797BF5519BC0E4200099415 /* ViewControllerAboutus.m in Sources */,
 				0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */,
 				970AAC7619ED5E17005C6D1E /* overallmenu.m in Sources */,

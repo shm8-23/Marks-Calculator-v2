@@ -37,7 +37,28 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //NUMBER TOOLBAR DONE
+    UIToolbar* numberToolbar = [[UIToolbar alloc]initWithFrame:CGRectMake(0, 0, 320, 50)];
+    numberToolbar.barStyle = UIBarStyleDefault;
+    numberToolbar.items = [NSArray arrayWithObjects:
+                           
+                           [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil],
+                           [[UIBarButtonItem alloc]initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(doneWithNumberPad)],
+                           nil];
+    [numberToolbar sizeToFit];
+    _Score.inputAccessoryView = numberToolbar;
+    _Total.inputAccessoryView = numberToolbar;
+ 
 }
+
+-(void) doneWithNumberPad {
+    [_Score resignFirstResponder];
+    [_Total resignFirstResponder];
+
+    
+}
+
+
 
 - (void)didReceiveMemoryWarning
 {
