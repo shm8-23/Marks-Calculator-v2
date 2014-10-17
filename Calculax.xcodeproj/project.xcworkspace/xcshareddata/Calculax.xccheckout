@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6ABA9D55-AB7B-46BC-8DF0-D2DFFAE28FCE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Calculax</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>16c85c17-1c22-cb71-ddc8-ce57b7db7bff++505</key>
+		<string>https://github.com/shm8-23/Marks-Calculator-v2/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Calculax.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>16c85c17-1c22-cb71-ddc8-ce57b7db7bff++505</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>16c85c17-1c22-cb71-ddc8-ce57b7db7bff++505</key>
+		<string>https://github.com/shm8-23/Marks-Calculator-v2</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shm8-23/Marks-Calculator-v2/trunk/Calculax.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>16c85c17-1c22-cb71-ddc8-ce57b7db7bff++505</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>16c85c17-1c22-cb71-ddc8-ce57b7db7bff++505</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Marks-Calculator-v2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
