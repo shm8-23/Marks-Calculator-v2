@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F40FDA519C743A60085C88C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F40FDA419C743A60085C88C /* CoreData.framework */; };
 		0F40FDA819C745050085C88C /* MarksCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F40FDA619C745050085C88C /* MarksCalculator.xcdatamodeld */; };
+		0F5BD8C819F0DB9D009B372F /* graphuiview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5BD8C719F0DB9D009B372F /* graphuiview.m */; };
 		9701321C19ED0D8E005EE75D /* EOYs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9701321B19ED0D8E005EE75D /* EOYs.m */; };
 		970AAC7319ED5DB7005C6D1E /* quickcalmenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 970AAC7219ED5DB7005C6D1E /* quickcalmenu.m */; };
 		970AAC7619ED5E17005C6D1E /* overallmenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 970AAC7519ED5E17005C6D1E /* overallmenu.m */; };
@@ -58,6 +59,8 @@
 /* Begin PBXFileReference section */
 		0F40FDA419C743A60085C88C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0F40FDA719C745050085C88C /* MarksCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarksCalculator.xcdatamodel; sourceTree = "<group>"; };
+		0F5BD8C619F0DB9D009B372F /* graphuiview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphuiview.h; sourceTree = "<group>"; };
+		0F5BD8C719F0DB9D009B372F /* graphuiview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = graphuiview.m; sourceTree = "<group>"; };
 		9701321A19ED0D8E005EE75D /* EOYs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOYs.h; sourceTree = "<group>"; };
 		9701321B19ED0D8E005EE75D /* EOYs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOYs.m; sourceTree = "<group>"; };
 		970AAC7119ED5DB7005C6D1E /* quickcalmenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quickcalmenu.h; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 		F903795B19AB156300CACEF9 = {
 			isa = PBXGroup;
 			children = (
+				0F5BD8C619F0DB9D009B372F /* graphuiview.h */,
+				0F5BD8C719F0DB9D009B372F /* graphuiview.m */,
 				9714E04E19EF4C200087DE24 /* graph.h */,
 				9714E04F19EF4C200087DE24 /* graph.m */,
 				970AAC7419ED5E17005C6D1E /* overallmenu.h */,
@@ -369,6 +374,7 @@
 				F903797E19AB156300CACEF9 /* ViewController.m in Sources */,
 				97270F4419E95EFE00D44020 /* sem1res.m in Sources */,
 				97DE620E19EA3CBD00D62AF1 /* LevelTest1.m in Sources */,
+				0F5BD8C819F0DB9D009B372F /* graphuiview.m in Sources */,
 				970AAC7319ED5DB7005C6D1E /* quickcalmenu.m in Sources */,
 				97D3BA7419EC064F00150224 /* Leveltest2.m in Sources */,
 				F903797819AB156300CACEF9 /* AppDelegate.m in Sources */,
