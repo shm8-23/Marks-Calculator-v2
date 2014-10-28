@@ -61,6 +61,28 @@
                                     //Motion add
                                     [dev addMotionEffect:meGroup];
     [dev2 addMotionEffect:meGroup];
+    
+    
+    
+    
+    
+    
+    
+    //animations
+    _tang.alpha = 0;
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+    [UIView setAnimationDuration:2];
+    _tang.alpha = 1;
+    [UIView commitAnimations];
+    
+    
+    _cdd.alpha = 0;
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
+    [UIView setAnimationDuration:1];
+    _cdd.alpha = 1;
+    [UIView commitAnimations];
 }
 
 - (void)didReceiveMemoryWarning

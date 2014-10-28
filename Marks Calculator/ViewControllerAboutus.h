@@ -15,4 +15,8 @@
 
 - (IBAction)back2:(id)sender;
 
+//labels
+@property (strong, nonatomic) IBOutlet UIButton *tang;
+@property (strong, nonatomic) IBOutlet UILabel *cdd;
+
 @end
